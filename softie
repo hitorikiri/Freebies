@@ -241,8 +241,9 @@
             <div class="col-12 p-1 rounded-0 card">
             <div class="card col-12 p-0 bg-transparent bg-faded border-0 text-right" style="">
             <span>
-                <a class="faded text-secondary tooltipster" title="avatar from かわZ's picrew" href="https://picrew.me/image_maker/32166"><i class="fal fa-image"></i></a>
-                <a class="faded text-secondary tooltipster" title="code by lymelle" href="/lymelle"><i class="fal fa-code"></i></a>
+                <a class="faded text-secondary tooltipster" title="avatar from かわZ's picrew" href="https://picrew.me/image_maker/32166"><i class="fad fa-user-tag"></i></a>
+                <a class="faded text-secondary tooltipster" title="moodboard images from unsplash" href="https://unsplash.com"><i class="fad fa-images"></i></a>
+                <a class="faded text-secondary tooltipster" title="code by lymelle" href="/lymelle"><i class="fad fa-code"></i></a>
             </span>
         </div>
         </div>
