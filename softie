@@ -239,9 +239,10 @@
 <div class="card row no-gutters p-2 pr-3 mt-1 rounded-0">
 <div class="col-12 card p-1 rounded-0 bg-faded mx-1">
             <div class="col-12 p-1 rounded-0 card">
-        <div class="card col-12 p-0 bg-transparent bg-faded border-0 text-right" style="">
+            <div class="card col-12 p-0 bg-transparent bg-faded border-0 text-right" style="">
             <span>
-                <a class="faded text-secondary" href="/lymelle"><i class="fal fa-code"></i></a>
+                <a class="faded text-secondary tooltipster" title="avatar from かわZ's picrew" href="https://picrew.me/image_maker/32166"><i class="fal fa-image"></i></a>
+                <a class="faded text-secondary tooltipster" title="code by lymelle" href="/lymelle"><i class="fal fa-code"></i></a>
             </span>
         </div>
         </div>
