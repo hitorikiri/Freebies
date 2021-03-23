@@ -1,0 +1,243 @@
+<!--- Code by LYMELLE on TOYHOUSE 
+
+    Notes: 
+    - Was testing out for tabs originally, but the code was getting pretty long... So I decided to release this as a freebie.
+    - I plan to release the full version soon with labels, customization options, & tons of helpful pointers.
+    
+    -ONLY USE THIS FOR TOYHOUSE. THIS WILL LIKELY BREAK ON OTHER SITES.
+    
+    - I recommend using the live editor made by Circlejourney while editing: https://th.circlejourney.net/
+    
+    Colors:
+    - text-secondary
+    - text-muted
+    - bg-faded
+
+--->
+
+
+<div class="text-muted">
+<div class="row no-gutters justify-content-center p-0 col-12">
+<div class="col-xl-7 col-12 p-0">
+
+<div class="card p-1 mx-3 rounded-0 bg-faded">
+<div class="card p-3 rounded-0" style="height:500px; overflow:auto">
+
+<div class="tab-content">
+    <div class="tab-pane fade show active" id="basics">
+    
+    <div class="row no-gutters pb-2 ">
+            <div class="col-12 card rounded-0 p-0 p-1 m-0 bg-faded">
+            <div class="col-12 card p-1 rounded-0">
+                <div class="display-4 p-1 justify-content-between" style="font-size:1.5rem; letter-spacing:3px;">
+                    <span>F<small>ull Name</small></span>
+                    <span><i class="fad fa-file-alt"/></span>
+                </div>
+            </div>
+            </div>
+    </div>
+        
+        <div class="row no-gutters">
+        
+        <!---- / AVATAR CARD / ---->
+        <div class="col-12 col-md-4 row no-gutters pr-md-1">
+        <div class="col-12 card p-1 rounded-0 bg-faded ">
+            <div class="col-12 p-1 rounded-0 card">
+                <!----AVATAR - CAN BE ANY RATIO, ITLL FIT AUTOMATICALLY---->
+                <div class="w-100 h-100" style="background-size:cover; background-position:center; min-height:200px;
+                background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/characters/3818440?1616439851)"></div>
+            </div>
+        </div>
+        </div>
+        <!---- / AVATAR CARD - END / ---->
+        
+        <!---- / BASICS / ---->
+        <div class="col-12 col-md-8 row no-gutters pl-md-1">
+        <div class="col-12 card p-1 rounded-0 bg-faded ">
+            <div class="col-12 p-2 rounded-0 card" style="height:200px; overflow:none">
+                
+                <div class="row no-gutters" style="font-weight: 350; font-size:1rem;">
+                
+                <!---- / ALIAS/ NICKNAME / ---->
+                <div class="row no-gutters my-1 px-2 col-6 justify-content-between flex">
+                         <span class="text-uppercase text-truncate col-6" style="letter-spacing:1.5px"> A<span style="font-size:0.78rem;">lias</span></span>
+                         <span class="text-right font-italic text-truncate col-6" style="font-size:0.9rem">or nickname</span>
+                </div>
+                <!---- / ALIAS/ NICKNAME - END / ---->
+                
+                <!---- / RACE / SPECIES / ---->
+                <div class="row no-gutters my-1 px-2 col-6 justify-content-between flex">
+                         <span class="text-uppercase text-truncate col-6" style="letter-spacing:1.5px"> R<span style="font-size:0.78rem;">ace</span></span>
+                         <span class="text-right font-italic text-truncate col-6" style="font-size:0.9rem">or class</span>
+                </div>
+                <!---- / RACE / SPECIES - END / ---->
+                
+                <!---- / GENDER / ---->
+                <div class="row no-gutters my-1 px-2 col-6 justify-content-between flex">
+                         <span class="text-uppercase text-truncate col-6" style="letter-spacing:1.5px"> G<span style="font-size:0.78rem;">ender</span></span>
+                         <span class="text-right font-italic text-truncate col-6" style="font-size:0.9rem">content</span>
+                </div>
+                <!---- / GENDER - END / ---->
+                
+                <!---- / PRONOUNS / ---->
+                <div class="row no-gutters my-1 px-2 col-6 justify-content-between flex">
+                         <span class="text-uppercase text-truncate col-6" style="letter-spacing:1.5px"> P<span style="font-size:0.78rem;">ronouns</span></span>
+                         <span class="text-right font-italic text-truncate col-6" style="font-size:0.9rem">content</span>
+                </div>
+                <!---- / PRONOUNS - END / ---->
+                
+                <!---- / AGE / ---->
+                <div class="row no-gutters my-1 px-2 col-6 justify-content-between flex">
+                         <span class="text-uppercase text-truncate col-6" style="letter-spacing:1.5px"> A<span style="font-size:0.78rem;">ge</span></span>
+                         <span class="text-right font-italic text-truncate col-6" style="font-size:0.9rem">content</span>
+                </div>
+                <!---- / AGE - END / ---->
+                
+                <!---- / HEIGHT / ---->
+                <div class="row no-gutters my-1 px-2 col-6 justify-content-between flex">
+                         <span class="text-uppercase text-truncate col-6" style="letter-spacing:1.5px"> H<span style="font-size:0.78rem;">eight</span></span>
+                         <span class="text-right font-italic text-truncate col-6" style="font-size:0.9rem">0'0/ 0cm</span>
+                </div>
+                <!---- / HEIGHT - END / ---->
+                
+                <!---- / OCCUPATION / ---->
+                <div class="row no-gutters my-1 px-2 col-6 justify-content-between flex">
+                         <span class="text-uppercase text-truncate col-6" style="letter-spacing:1.5px"> O<span style="font-size:0.78rem;">ccupation</span></span>
+                         <span class="text-right font-italic text-truncate col-6" style="font-size:0.9rem">content</span>
+                </div>
+                <!---- / OCCUPATION ENDED / ---->
+                
+                <!---- / SEXUAL ORIENTATION / ---->
+                <div class="row no-gutters my-1 px-2 col-6 justify-content-between flex">
+                         <span class="text-uppercase text-truncate col-6" style="letter-spacing:1.5px"> O<span style="font-size:0.78rem;">rientation</span></span>
+                         <span class="text-right font-italic text-truncate col-6" style="font-size:0.9rem">sexuality</span>
+                </div>
+                <!---- / SEXUAL ORIENTATION - END / ---->
+                
+                <!---- / MBTI / ---->
+                <div class="row no-gutters my-1 px-2 col-6 justify-content-between flex">
+                         <span class="text-uppercase text-truncate col-6" style="letter-spacing:1.5px"> M<span style="font-size:0.78rem;">BTI</span></span>
+                         <span class="text-right font-italic text-truncate col-6" style="font-size:0.9rem">content</span>
+                </div>
+                <!---- / MBTI - END / ---->
+                
+                <!---- / ALIGNMENT / ---->
+                <div class="row no-gutters my-1 px-2 col-6 justify-content-between flex">
+                         <span class="text-uppercase text-truncate col-6" style="letter-spacing:1.5px"> A<span style="font-size:0.78rem;">lignment</span></span>
+                         <span class="text-right font-italic text-truncate col-6" style="font-size:0.9rem">content</span>
+                </div>
+                <!---- / ALIGNMENT - END / ---->
+                
+                <!---- / VOICE CLAIM / ---->
+                <div class="row no-gutters my-1 px-2 col-6 justify-content-between flex">
+                         <span class="text-uppercase text-truncate col-6" style="letter-spacing:1.5px"> V<span style="font-size:0.78rem;">oice</span></span>
+                         <span class="text-right font-italic text-truncate col-6" style="font-size:0.9rem; font-weight:400"><a href="https://www.youtube.com/watch?t=46&v=hCwmErCqezA" 
+                         class="text-secondary" style="text-decoration:none">va's name</a></span>
+                </div>
+                <!---- / VOICE CLAIM - END / ---->
+                
+                <!---- / THEME / ---->
+                <div class="row no-gutters my-1 px-2 col-6 justify-content-between flex">
+                         <span class="text-uppercase text-truncate col-6" style="letter-spacing:1.5px"> T<span style="font-size:0.78rem;">heme</span></span>
+                         <span class="text-right font-italic text-truncate col-6" style="font-size:0.9rem; font-weight:400"><a href="https://www.youtube.com/watch?v=mfJpcUDx0QA" 
+                         class="text-secondary" style="text-decoration:none">song name</a></span>
+                </div>
+                <!---- / THEME - END / ---->
+                
+                </div>
+                
+            </div>
+        </div>
+        </div>
+        
+        </div>
+        <!---- / BASICS - END / ---->
+        
+        <!---- / PARAGRAPH BOX / ---->
+        <div class="row no-gutters pt-2">
+            <div class="col-12 card rounded-0 p-0 p-1 m-0 bg-faded">
+            <div class="col-12 card p-1 rounded-0">
+                <div class="p-2 text-justify" style="height:156px; overflow: auto">
+                    <p>&nbsp &nbsp
+                        Type a short introduction of your character. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!---- / PARAGRAPH BOX - END / ---->
+    
+    </div>
+    </div>
+    </div>
+
+
+<!-----------------
+
+    MOODBOARD
+    
+------------------>
+
+<div class="card p-2 mt-1 rounded-0">
+    
+    <div class="row no-gutters">
+        
+        <!---- / IMAGE 1 / ---->
+         <div class="col-6 col-md-3 p-1 row no-gutters">
+            <div class="col-12 card p-1 rounded-0 bg-faded">
+            <div class="col-12 card p-1 rounded-0">
+                <div class="w-100" style="background-size:cover; background-position:center; min-height:155px;
+                background-image:url(IMG URL)"></div>
+            </div>
+            </div>
+        </div>
+        <!---- / IMAGE 1 - END / ---->
+        
+        <!---- / IMAGE 2 / ---->
+        <div class="col-6 col-md-3 p-1 row no-gutters">
+            <div class="col-12 card p-1 rounded-0 bg-faded">
+            <div class="col-12 card p-1 rounded-0">
+            <div class="w-100" style="background-size:cover; background-position:center; min-height:155px;
+                background-image:url(IMG URL)"></div>
+            </div>
+            </div>
+        </div>
+        <!---- / IMAGE 2 - END / ---->
+        
+        <!---- / IMAGE 3 / ---->
+        <div class="col-6 col-md-3 p-1 row no-gutters">
+            <div class="col-12 card p-1 rounded-0 bg-faded">
+            <div class="col-12 card p-1 rounded-0">
+            <div class="w-100" style="background-size:cover; background-position:center; min-height:155px;
+                background-image:url(IMG URL)"></div>
+            </div>
+            </div>
+        </div>
+        <!---- / IMAGE 3 - END / ---->
+        
+        <!---- / IMAGE 4 / ---->
+        <div class="col-6 col-md-3 p-1 row no-gutters">
+            <div class="col-12 card p-1 rounded-0 bg-faded">
+            <div class="col-12 card p-1 rounded-0">
+            <div class="w-100" style="background-size:cover; background-position:center; min-height:155px;
+                background-image:url(IMG URL)"></div>
+            </div>
+            </div>
+        </div>
+        <!---- / IMAGE 4 - END / ---->
+
+    </div>
+</div>
+
+<!--- / CREDITS  / --->
+<div class="card row no-gutters p-2 pr-3 mt-1 rounded-0">
+<div class="col-12 card p-1 rounded-0 bg-faded mx-1">
+            <div class="col-12 p-1 rounded-0 card">
+        <div class="card col-12 p-0 bg-transparent bg-faded border-0 text-right" style="">
+            <span>
+                <a class="faded text-secondary" href="/lymelle"><i class="fal fa-code"></i></a>
+            </span>
+        </div>
+        </div>
+</div>
+</div>
+<!--- / CREDITS - END  / --->
