@@ -1,0 +1,159 @@
+<!--- /  Code by LYMELLE on TOYHOUSE 
+
+    / NOTES /
+    - LINK TO CODE: 
+    - ONLY USE THIS FOR TOYHOUSE. THIS WILL VERY LIKELY BREAK ON OTHER SITES.
+    - I recommend using the live editor made by Circlejourney while editing: https://th.circlejourney.net/
+    
+    - For easy changes with replacing images & colors, I recommend highlighting the section and using CTRL+F.
+    - None of the sections scroll. It will stretch to fit the content.
+    - This was a quick code so the comments are scarce/ copied from other codes. Should be digestable enough though?
+    
+    / TOS /
+    - Feel free to comment if you use my codes! I would love to see what you did with them & it lets me know that it's not just being... collected lol
+    - Feel free to edit/frankestin as you'd like
+    - You can pay others to edit my codes.
+    - You can use snippets from my codes for your personal/ F2U codes.
+    - If you just edit my templates directly, don't remove the credit.
+    - If you want to distribute an edit of my code publicly, please DM me beforehand.
+    
+    / COLORS /
+    - text-primary
+    - text-muted
+    - bg-faded
+    
+    / IMAGES / (highlight & use CTRL+F to quick change)
+    - side image: IMAGE_URL
+    
+
+ / --->
+
+<div class="container">
+<div class="justify-content-center row border-0 text-center">
+    
+      <div class="col-12 col-sm-8 col-lg-3 card rounded-0 border-0 mx-md-2 my-1" 
+                style="min-height:300px; background-size:cover; background-repeat: no-repeat; background-position:center;
+                background-image:url(IMAGE_URL)">
+          <!----AVATAR - CAN BE ANY RATIO, ITLL FIT AUTOMATICALLY---->
+      </div>
+    
+      <div class="card bg-faded rounded-0 p-3 mx-md-2 my-1 col-12 col-sm-8 col-lg-7 col-xl-6">
+           <!----NAME - TITLE WILL NOT APPEAR ON SMALLER SCREENS---->
+           <h1 class="pb-2 text-primary" style="font-variant:small-caps; font-weight:400; letter-spacing:3px"> 
+                NAME
+           <span class="d-none d-sm-inline text-muted" style="font-size:1.2rem"><br> 
+                TITLE
+           </span>
+           </h1>
+           
+           <hr class="w-100 m-0 pb-2">
+           
+           <div class="row no-gutters" style="font-weight: 400; font-size:1rem;">
+                
+                <!----BASICS SECTION---->
+                <!---- / ALIAS/ NICKNAME / ---->
+                <div class="row no-gutters my-1 px-2 col-12 col-md-6 justify-content-between flex">
+                         <span class="text-left text-uppercase text-truncate col-6" style="letter-spacing:1px"> Alias</span>
+                         <span class="text-right font-italic text-truncate col-6">content</span>
+                </div>
+                <!---- / ALIAS/ NICKNAME - END / ---->
+                
+                <!---- / RACE / SPECIES / ---->
+                <div class="row no-gutters my-1 px-2 col-12 col-md-6 justify-content-between flex">
+                         <span class="text-left text-uppercase text-truncate col-6" style="letter-spacing:1px"> Race</span>
+                         <span class=""></span>
+                         <span class="text-right font-italic text-truncate col-6"> or species</span>
+                </div>
+                <!---- / RACE / SPECIES - END / ---->
+                
+                <!---- / GENDER / ---->
+                <div class="row no-gutters my-1 px-2 col-12 col-md-6 justify-content-between flex">
+                         <span class="text-left text-uppercase text-truncate col-6" style="letter-spacing:1px"> Gender</span>
+                         <span class="text-right font-italic text-truncate col-6">content</span>
+                </div>
+                <!---- / GENDER - END / ---->
+                
+                <!---- / PRONOUNS / ---->
+                <div class="row no-gutters my-1 px-2 col-12 col-md-6 justify-content-between flex">
+                         <span class="text-left text-uppercase text-truncate col-6" style="letter-spacing:1px"> Pronouns</span>
+                         <span class="text-right font-italic text-truncate col-6">content</span>
+                </div>
+                <!---- / PRONOUNS - END / ---->
+                
+                <!---- / AGE / ---->
+                <div class="row no-gutters my-1 px-2 col-12 col-md-6 justify-content-between flex">
+                         <span class="text-left text-uppercase text-truncate col-6" style="letter-spacing:1px"> Age</span>
+                         <span class="text-right font-italic text-truncate col-6">content</span>
+                </div>
+                <!---- / AGE - END / ---->
+                
+                <!---- / HEIGHT / ---->
+                <div class="row no-gutters my-1 px-2 col-12 col-md-6 justify-content-between flex">
+                         <span class="text-left text-uppercase text-truncate col-6" style="letter-spacing:1px"> Height</span>
+                         <span class="text-right font-italic text-truncate col-6">content</span>
+                </div>
+                <!---- / HEIGHT - END / ---->
+                
+                <!---- / OCCUPATION / ---->
+                <div class="row no-gutters my-1 px-2 col-12 col-md-6 justify-content-between flex">
+                         <span class="text-left text-uppercase text-truncate col-6" style="letter-spacing:1px"> Occupation</span>
+                         <span class="text-right font-italic text-truncate col-6">or roole</span>
+                </div>
+                <!---- / OCCUPATION ENDED / ---->
+                
+                <!---- / SEXUAL ORIENTATION / ---->
+                <div class="row no-gutters my-1 px-2 col-12 col-md-6 justify-content-between flex">
+                         <span class="text-left text-uppercase text-truncate col-6" style="letter-spacing:1px"> Orientation</span>
+                         <span class="text-right font-italic text-truncate col-6">content</span>
+                </div>
+                <!---- / SEXUAL ORIENTATION - END / ---->
+                
+                <!---- / MBTI / ---->
+                <div class="row no-gutters my-1 px-2 col-12 col-md-6 justify-content-between flex">
+                         <span class="text-left text-uppercase text-truncate col-6" style="letter-spacing:1px"> MBTI</span>
+                         <span class="text-right font-italic text-truncate col-6">content</span>
+                </div>
+                <!---- / MBTI - END / ---->
+                
+                <!---- / ALIGNMENT / ---->
+                <div class="row no-gutters my-1 px-2 col-12 col-md-6 justify-content-between flex">
+                         <span class="text-left text-uppercase text-truncate col-6" style="letter-spacing:1px"> Alignment</span>
+                         <span class="text-right font-italic text-truncate col-6">content</span>
+                </div>
+                
+                </div>
+                
+           <hr class="w-100 mt-2">
+           
+           <!----SMALL PARAGRAPH - Recommended to be used as an about section ---->
+           <p class="mx-1 text-justify" style="letter-spacing:.5px; line-height:2">
+           
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+           
+           </p>
+           
+           
+           
+           <hr class="w-100 mt-2">
+        
+        <!----THEME & VOICE LINKS - Can be edited to link references or whatever ya need  ---->
+        <div class="row no-gutters">
+            <div class="col-6 pr-1">
+                <a class="btn-block btn btn-primary rounded-0 text-center" style="font-weight:400; font-size:15px; letter-spacing:2px" href="#">VOICE LINK</a> 
+            </div>
+            <div class="col-6 pl-1">
+                <a class="btn-block btn btn-primary rounded-0 text-center" style="font-weight:400; font-size:15px; letter-spacing:2px" href="#">THEME LINK</a> 
+            </div>
+        </div>
+      </div>
+  </div>
+  </div>
+  
+  <!---- CREDIT SECTION - PLEASE CREDIT THE ARTIST/PHOTOGRAPHER ---->
+  <div class="row no-gutters justify-content-center">
+  <div class="col-12 col-sm-9 col-lg-8 pr-sm-4 pr-lg-5 text-right">
+      <span>
+          <a class="tooltipster" title="art by username" href="/username"><i class="mx-1 fad fa-camera-retro" /></a>
+          <a class="tooltipster" title="code by lymelle" href="/lymelle"><i class="fad fa-code" /></a>
+      </span>
+  </div></div>
