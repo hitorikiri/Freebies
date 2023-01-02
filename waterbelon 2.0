@@ -1,0 +1,209 @@
+<!--- /  Code by LYMELLE on TOYHOUSE 
+
+    / NOTES /
+    - LINK TO CODE: 
+    - ONLY USE THIS FOR TOYHOUSE. THIS WILL VERY LIKELY BREAK ON OTHER SITES.
+    - I recommend using the live editor made by Circlejourney while editing: https://th.circlejourney.net/
+    
+    - For easy changes with replacing images & colors, I recommend highlighting the url and using CTRL+F.
+    - None of the sections scroll. It will stretch to fit the content.
+    - All sections (headers, paragraphs, bullets, art links) are labeled so you can easily add & remove.
+    
+    / TOS /
+    - Feel free to comment if you use my codes! I would love to see what you did with them & it lets me know that it's not just being... collected lol
+    - Feel free to edit/frankestin as you'd like
+    - You can pay others to edit my codes.
+    - You can use snippets from my codes for your personal/ F2U codes.
+    - If you just edit my templates directly, don't remove the credit.
+    - If you want to distribute an edit of my code publicly, please DM me beforehand.
+    
+    / COLORS /
+    - text-white
+    - card trim/border: #fff
+    
+    / IMAGES / (highlight & use CTRL+F to quick change)
+    - pagedoll img: PAGEDOLL_URL
+    - gallery image 1: IMG_URL1
+    - gallery image 2: IMG_URL2
+    - gallery image 3: IMG_URL3
+    - gallery image 4: IMG_URL4
+    
+    - watermelon border img: https://cdn.pixabay.com/photo/2020/06/19/21/44/watermelon-5318938_960_720.jpg
+    - watermelon inside img: https://images.pexels.com/photos/4869139/pexels-photo-4869139.jpeg
+    
+
+ / --->
+
+<!--- / PAGEDOLL / --->
+<div class="">
+    <img class="d-none d-lg-block" style="position:fixed; bottom:100px; right:10px; z-index:3; max-width:15%"
+    src="PAGEDOLL_URL">
+</div>
+<!--- / PAGEDOLL - END / --->
+
+<!--- / USE THIS TO EDIT THE TEXT COLOR & SIZE (DO NOT REMOVE THIS SECTION OR THE CODE WILL BREAK) / --->
+<div class="row justify-content-center text-white" style="font-size:16px">
+    
+    <!--- / WATERMELON BORDER / --->
+    <div class="card border-0 col-12 p-4"
+    style="background-image:url(https://cdn.pixabay.com/photo/2020/06/19/21/44/watermelon-5318938_960_720.jpg);
+    background-size:cover;
+    background-position:fixed;
+    max-width:1000px">
+        
+        <!------------------
+        
+            TITLE HEADER SECTION
+        
+        ------------------->
+        
+        
+        <!--- / WHITE OUTLINE / --->
+        <div class="card border-0 col-12 p-2 mb-2" style="background-color:#fff">
+            <!--- / WATERMELON INSIDE/CONTENT / --->
+            <div class="card border-0 col-12" 
+            style="background-image:url(https://images.pexels.com/photos/4869139/pexels-photo-4869139.jpeg); background-size:cover; opacity:70%">
+                
+                <!--- / TITLE SECTION (FEEL FREE TO REMOVE) / --->
+                <h2 class="display-3 text-center pt-4" style="font-size:2.5rem"> 
+                    <i class="fad fa-burn fa-rotate-90 mx-2" />
+                        <!---TITLE--->
+                        TITLE
+                    <i class="fad fa-burn fa-rotate-270 mx-2" />
+                </h2>
+                <!--- / TITLE SECTION - END / --->
+                
+                <!--- / SOCIAL MEDIA LINKS / --->
+                <div class="row no-gutters mb-2 m-0 mt-n1 justify-content-center">
+                    
+                    <!--- / TWITTER / --->
+                    <a class="col-3 col-md-2 col-lg-1 p-0 py-2 mx-n3 mx-md-n2 btn btn-bg-danger btn-outline-danger border-0 text-white" style="mix-blend-mode:screen; font-size:1.2rem" 
+                        href="https://twitter.com/"> <i class="fab fa-twitter" /> </a>
+                        
+                    <!--- / DEVIANTART / --->
+                    <a class="col-3 col-md-2 col-lg-1 p-0 py-2 mx-n3 mx-md-n2 btn btn-bg-danger btn-outline-danger border-0 text-white" style="mix-blend-mode:screen; font-size:1.2rem" 
+                        href="https://deviantart.com/"> <i class="fab fa-deviantart" /> </a>
+                        
+                    <!--- / KO-FI / --->
+                    <a class="col-3 col-md-2 col-lg-1 p-0 py-2 mx-n3 mx-md-n2 btn btn-bg-danger btn-outline-danger border-0 text-white" style="mix-blend-mode:screen; font-size:1.2rem" 
+                        href="https://ko-fi.com/"> <i class="fad fa-mug-marshmallows" /> </a>
+                        
+                    <!--- / MESSAGE / --->
+                    <a class="col-3 col-md-2 col-lg-1 p-0 py-2 mx-n3 mx-md-n2 btn btn-bg-danger btn-outline-danger border-0 text-white" style="mix-blend-mode:screen; font-size:1.2rem" 
+                        href="https://toyhou.se/~messages/create/USER_NAME"> <i class="fad fa-envelope-open-text" /> </a>
+                </div>
+                <!--- / SOCIAL MEDIA LINKS - END / --->
+        
+        <!------------------
+        
+            TITLE SECTION - END
+        
+        ------------------->
+        
+        <!------------------
+        
+            CONTENT SECTION
+        
+        ------------------->
+        
+        <!--- / WHITE OUTLINE / --->
+        <div class="card border-0 p-1 px-2 mb-2" style="background-color:#fff;">
+        <!--- / WHITE OUTLINE / --->
+        
+            <!--- / WATERMELON INSIDE / --->
+            <div class="card border-0 col-12 px-5 py-4" style="background-image:url(https://images.pexels.com/photos/4869139/pexels-photo-4869139.jpeg); 
+            background-size:cover; background-color:rgb(100,20,20); filter: opacity(80%);">
+                
+                <!--- / HEADER / --->
+                    <h1 class="display-4 text-center" style="font-size:1.6rem">HEADER TITLE</h1>
+                <!--- / HEADER / --->
+                
+                    <!--- / PARAGRAPH 1 / --->
+                    <p>
+                        <!--- / BIG LETTER / ---><big>N</big><!--- / BIG LETTER / --->othing much. 
+                        
+                            lorem ipsum dolor sit amet, consectetur adipiscing elit. In id sapien molestie, ultricies purus sed, lacinia nibh. Sed eu dolor sapien. Nunc pretium quam eget pulvinar rhoncus. Integer ac magna id lorem iaculis congue quis nec tellus. 
+                            
+                            <!--- / LINK / ---><a class="text-white" style="text-decoration:underline" href="#">LINK</a><!--- / LINK / --->.
+                            
+                    <!--- / PARAGRAPH 1 - END / --->
+
+
+                <!--- / BULLET POINT SECTION / --->
+                <p>Title/starting sentence of bullet section.
+                
+                <div class="pl-5 pb-2" style="list-style: none; margin-top:-15px">
+                    
+                    <i class="fad fa-burn fa-rotate-90 mx-1" /> <span>bullet</span>
+                  <br>
+                    <i class="fad fa-burn fa-rotate-90 mx-1" /> <span>bullet</span>
+                  <br>
+                    <i class="fad fa-burn fa-rotate-90 mx-1" /> <span>bullet</span>
+                
+                </div>
+                <!--- / BULLET POINT SECTION - END / --->
+                
+                <!--- / PARAGRAPH SECTION 2 / --->
+                <p class="py-1">lorem ipsum dolor sit amet, consectetur adipiscing elit. In id sapien molestie, ultricies purus sed, lacinia nibh. Sed eu dolor sapien. Nunc pretium quam eget pulvinar rhoncus. Integer ac magna id lorem iaculis congue quis nec tellus.</p>
+                <!--- / PARAGRAPH SECTION 2 - END / --->
+                
+                <!--- / DISPLAY SECTION / --->
+                <div class="row no-gutters justify-content-center text-center mx-auto pt-2">
+                    
+                    <!--- / IMG 1 / --->
+                    <div class="w-25 p-0">
+                        <a class="btn btn-bg-danger btn-outline-primary border-0 py-3" 
+                            href="#"> 
+                            <img style="max-height:200px" src="IMG_URL1">
+                        </a>
+                    </div>
+                    <!--- / IMG 1 - END / --->
+                    
+                    <!--- / IMG 2 / --->
+                    <div class="w-25 p-0">
+                        <a class="btn btn-bg-danger btn-outline-primary border-0 py-3" 
+                            href="#"> 
+                            <img style="max-height:200px" src="IMG_URL2">
+                        </a>
+                    </div>
+                    <!--- / IMG 2 - END / --->
+                    
+                    <!--- / IMG 3 / --->
+                    <div class="w-25 col-md-3 p-0">
+                        <a class="btn btn-bg-danger btn-outline-primary border-0 py-3" 
+                            href="#"> 
+                            <img style="max-height:200px" src="IMG_URL3">
+                        </a>
+                    </div>
+                    <!--- / IMG 3 - END / --->
+                    
+                    <!--- / IMG 4 / --->
+                    <div class="w-25 col-md-3 p-0">
+                        <a class="btn btn-bg-danger btn-outline-primary border-0 py-3" 
+                            href="#"> 
+                            <img style="max-height:200px" src="IMG_URL4">
+                        </a>
+                    </div>
+                    <!--- / IMG 4 - END / --->
+                    
+                </div>
+                <!--- / DISPLAY SECTION - END / --->
+                
+                
+            </div>
+        </div>
+        <!--- / DISPLAY SECTION - END / --->
+        
+    </div>
+    </div>
+    </div>
+    
+    <!--- / CREDIT SECTION / --->
+    <div class="col-12 pt-1 text-right" style="max-width:1000px">
+        <span>
+            <a href="/Lymle"><i class="fad fa-code pl-1 text-danger tooltipster" title="Code by Lymle"></i></a>
+            <a href="#"><i class="fad fa-portrait pl-1 text-danger tooltipster" title="Pagedoll by artist"></i></a>
+            <a href="https://www.pexels.com/ "><i class="fad fa-camera-retro pl-1 text-danger tooltipster" title="Background from Pexels"></i></a>
+        </span> 
+    </div>
+    <!--- / CREDIT SECTION - END / --->
