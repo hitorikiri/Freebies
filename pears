@@ -1,0 +1,626 @@
+<!-----------------------------------------------------
+
+                    🍐 PEARS!🍐
+
+                   Code by LYMLE
+                  Layout by LYMLE
+
+    Coders Quarters' July 2023 Challenge Submission
+    
+    --------------------------------------------------
+    
+       It's highly recommended to use CircleJourney's Live Editor, 
+especially if you're a beginner or making changes to the layout or aesthetic.
+
+                   https://th.circlejourney.net/#
+    
+    --------------------------------------------------
+    
+              🍐 TABLE OF CONTENTS!🍐
+        Use CTRL + F to find each section.
+
+               ∙ BANNER
+               ∙ CONTENT AREA
+                   ∙ FIRST ROW 
+                     ∙ SOCIAL MEDIA SIDEBAR
+                     ∙ ABOUT ME SECTION
+                        ∙ SPINNY BANNER
+                        ∙ I AM USERNAME! header
+                        ∙ ABOUT ME PARAGRAPH SECTION
+                     ∙ STATUS SECTION
+                   ∙ END OF THE FIRST ROW
+                   ∙ SECOND ROW 
+                     ∙ EXTRA LINKS SIDEBAR
+                     ∙ FEATURED STORIES SECTION
+                        ∙ STORY 1
+                        ∙ STORY 2
+                   ∙ END OF THE SECOND ROW
+    
+    --------------------------------------------------
+
+                    🍐 SHORTCUTS!🍐
+    Use CTRL + F to edit all the code at the same time.
+
+        ∙ text-muted = muted text color 
+        ∙ bg-faded = muted bg color 
+
+        ∙ fa-pear = decoration icons 
+(Use https://fontawesome.com/icons?d=gallery to find a new icon)
+                        
+                                ∙ -success = accent color  
+                            (Changes accented text and background!)
+
+(Use https://getbootstrap.com/docs/4.0/utilities/colors/ to see the different bootstrap options. 
+Using light/white or dark is highly unrecommended due to being unreadable on various Toyhou.se themes.)
+
+------------------------------------------------------>
+
+<!--------------------------------------------
+                                                    NOTES
+    ∙ For Coders Quarters' July 2023 challenge! The theme was to choose a fruit and made a code with its aesthetic.
+    ∙ Pears are really underrated (and my favorite fruit) so I it based on them :)
+    ∙
+---------------------------->
+
+<div class="h-100 text-muted" style="font-size:13pt; margin-left:-15px; margin-right:-15px; margin-top:-15px; margin-bottom:-31px">
+    <div class="card bg-faded border-0 rounded-0 p-0">
+        
+        <!--BANNER! -->
+        <!--NOTES! -----
+            The backgrounds of the top and bottom images use the "luminosity" filter to harmonize the image's colors to the bootstrap theme. 
+            
+            To change the color, change bg-success to bg-primary, bg-warning, bg-danger, bg-info, bg-secondary, bg-dark, or bg-light.
+            You can also remove bg-success and write next to class="" | style="background-color:#" | to give a custom color.
+            
+            To remove the effect, delete "luminosity" on line 33. 
+            The background color won't effect the image unless it has a filter or is opaque (opacity:decimalnumber)
+        --------------->
+        
+        <div class="bg-success">
+            <div class="w-100" style="height:200px; mix-blend-mode:luminosity;
+            
+            background-image:url(https://images.unsplash.com/photo-1542820242-a3699d4f2bfe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1169&q=80);
+            background-position:center;
+            background-size:cover
+            
+            ">
+                
+            </div>
+        </div>
+        
+        <!--
+         CONTENT AREA
+        -->
+        <div class="row no-gutters pl-2">
+            
+                    
+            <!--
+
+                SOCIAL MEDIA SIDEBAR SECTION
+ 
+            -->
+            <div class="mb-3">
+                <div class="text-center mt-2 p-2 card rounded-0 h-100" style="max-width:80px">
+                    <div class="card bg-faded rounded-0  h-100" style="font-size:23pt;">
+                        <div class="p-1">
+                            
+                            
+                            <div class="p-1">
+                                                                   <!--INSERT LINK V-->
+                            <a class="text-success tooltipster" title="Carrd" href="#">
+                                <i class="fad fa-id-card"></i></a>
+                            </div>
+                            
+                            
+                            <div class="divider"><hr class="my-2 mx-n1"></div>
+                            
+                            
+                            <div class="p-1">
+                                                                         <!--INSERT LINK V-->
+                                <a class="text-success tooltipster" title="Twitter" href="#">
+                                    <i class="fab fa-twitter"></i></a>
+                            </div>
+                            
+                            <div class="p-1">
+                                                                           <!--INSERT LINK V-->
+                                <a class="text-success tooltipster" title="Instagram" href="#">
+                                    <i class="fab fa-instagram"></i></a>
+                            </div>
+                            
+                            <div class="p-1">
+                                                                        <!--INSERT LINK V-->
+                            <a class="text-success tooltipster" title="DeviantArt" href="#">
+                                <i class="fab fa-deviantart"></i></a>
+                            </div>
+                            
+                            <div class="p-1">
+                                                                   <!--INSERT LINK V-->
+                            <a class="text-success tooltipster" title="Ko-Fi" href="#">
+                                <i class="fas fa-mug"></i></a>
+                            </div>
+                            
+                            
+                            <div class="divider"><hr class="my-2 mx-n1"></div>
+                            
+                            
+                            <div class="p-1">
+                                                                                            <!--INSERT YOUR USER ID V-->
+                            <a class="text-success tooltipster" title="Discord" href="https://discordapp.com/users/USERID">
+                                <i class="fab fa-discord"></i></a>
+                            </div>
+                            
+                            <div class="p-1">
+                                                                                             <!--INSERT YOUR TOYHOUSE USER-NAME V-->
+                            <a class="text-success tooltipster" title="Message Me!" href="https://toyhou.se/~messages/create/USERNAME">
+                                <i class="fas fa-envelope"></i></a>
+                            </div>
+                            
+                            
+                            <div class="divider"><hr class="my-2 mx-n1"></div>
+                            
+                            <!---Bottom Pear-->
+                            <div class="">
+                                <i class="fad fa-pear text-success fa-flip" style="position: absolute; bottom: 0; margin-bottom:10px; margin-left:-15px"></i></a>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col">
+                <div class="row no-gutters mx-lg-0">
+                <!---FIRST ROW-->
+                    <!-------------------
+                    
+                        ABOUT ME SECTION
+                    
+                    ------------------>
+                    <div class="col-md-9 py-2">
+                        <div class="mx-md-2 card rounded-0 p-2">
+                        <div class="card rounded-0 mx-1 mx-md-0">
+                            
+                            <!---SPINNY BANNER thing for aesthetics. **IT IS DISABLED ON MOBILE FOR FUNCTIONAL REASONS**-->
+                            <div class="text-success font-italic justify-content-between d-none d-lg-flex px-4 pt-2 pb-3 bg-faded" style="font-size:40pt; letter-spacing:10px">
+                                    <div><i class="fad fa-pear small fa-spin mx-2"></i></div>
+                                    <div class="text-success">梨!</div>
+                                    <div><i class="fad fa-pear small fa-spin mx-2"></i></div>
+                                    <div class="text-success">梨!</div>
+                                    <div><i class="fad fa-pear small fa-spin mx-2"></i></div>
+                                    <div class="text-success">梨!</div>
+                                    <div><i class="fad fa-pear small fa-spin mx-2"></i></div>
+                                    <div class="text-success">梨!</div>
+                                    <div><i class="fad fa-pear small fa-spin mx-2"></i></div>
+                                    <div class="text-success">梨!</div>
+                                    <div><i class="fad fa-pear small fa-spin mx-2"></i></div>
+                            </div>
+                            <!---End of the spinny banner-->
+                            
+                                <div><hr class="mt-0 mb-0 bg-success faded d-none d-md-block"></div>
+                                
+                            <!---I AM USERNAME! HEADER-->
+                            <div class="text-center py-1 mt-2 card border-0 rounded-0" STYLE="font-size:25pt">
+                                <span>
+                                    I am <span class="text-success font-italic ml-1" style="letter-spacing:1px">USERNAME!</span>
+                                </span>
+                                <div class="text-center font-italic text-muted faded mt-n1" style="font-size:14.5pt">∙ name ∙ pro/nouns ∙ age ∙</div>
+                            </div>
+                            <!---I AM USERNAME! HEADER - END-->
+                            
+                                <div><hr class="bg-success faded mt-2 mb-0"></div>
+                            
+                            <!---ABOUT ME PARAGRAPH SECTION-->
+                            <div class="p-2 pb-2 bg-faded text-justify">
+
+                                <!-------Image in the about blurb! Highly recommend to insert a pagedoll here------>
+                                <span class="w-100 h-100 bg-success">
+                                <img class="float-right mt-3 mb-2 mx-5 d-none d-md-inline" style="max-height:150px;" src="https://cdn.discordapp.com/attachments/970568891145273364/1131694973826375721/Illustration5.png">
+                                </span>
+                                
+                                <p class="px-2"><span class="text-success pl-4" style="font-size:18pt">T</span>ype an introduction to yourself here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros. Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque.</p>
+                                <p class="px-2"><span class="text-success pl-4" style="font-size:18pt">L</span>orem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros. Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros. Duis placerat velit vitae massa sodales, eget mattis nib pellentesque.</p>
+
+                            </div>
+                            <!---ABOUT ME PARAGRAPH SECTION - END-->
+                            
+                        </div>
+                        </div>
+                    </div>
+                    <!-------------------
+                        ABOUT ME SECTION - END
+                    ------------------>
+                    
+                    
+                    <!-------------------
+                    
+                        STATUS SECTION
+                    
+                    ------------------>
+                    <div class="col-md-3 py-2">
+                            <div class="card rounded-0 py-2 pr-2 h-100">
+                        <div class="ml-md-2 card rounded-0 p-2 h-100">
+                            <div class="bg-success h-100 w-100" style="position:absolute; bottom:0px; left:0px;">
+                                <div class="card rounded-0 border-0 h-100 mx-1 mx-md-0" style="mix-blend-mode:luminosity;
+                    
+                                background-image:url(https://images.unsplash.com/photo-1602586947950-0212cd0e1770);
+                                background-position:center;
+                                background-size:cover
+                                
+                                ">
+                            </div>
+                            </div>
+                            <div class="p-2 my-auto" style="">
+                            
+                            <div class="text-center card rounded-0 border-0 mx-n3 mt-n1 py-2" STYLE="font-size:20pt;">
+                                    <span  class="text-success font-italic" style="letter-spacing:1px">STATUS!</span> 
+                            </div>
+                            
+                            <div class="rounded-0 border-0 mx-n3">
+                            <div class="text-center " STYLE="font-size:15pt">
+                                <div class="card bg-faded text-muted rounded-0 border-0 pb-1">
+                                    <span>Commissions? <br class="d-inline d-lg-none">
+                                                                                           <!--INSERT LINK V-->
+                                            <a class="text-success font-italic" style="text-decoration:underline" href="#">OPEN</a>!
+                                </div>
+                                <div class="card text-muted rounded-0 border-0 pb-1">
+                                    <span>Customs? <br class="d-inline d-lg-none">
+                                        <span class="text-success font-italic ml-1">
+                                        <span class="text-muted font-italic faded ml-1" >CLOSED!</span>
+                                        </span>
+                                </div>
+                                <div class="card bg-faded text-muted rounded-0 border-0 pb-1">
+                                    <span>Art Trades? <br class="d-inline d-lg-none">
+                                    <span class="text-success font-italic ml-1">ASK!</span>
+                                    </span>
+                                </div>
+                                <div class="card text-muted rounded-0 border-0 pb-1">
+                                    <span>Collaborations? <br class="d-inline d-lg-none">
+                                    <span class="text-success font-italic ml-1">ASK!</span>
+                                    </span>
+                                </div>
+                                <div class="card bg-faded text-muted rounded-0 border-0 pb-1">
+                                    <span>Requests? <br class="d-inline d-lg-none">
+                                        <span class="text-muted font-italic faded ml-1" >NO!</span>
+                                    </span>
+                                </div>
+                            </div>
+                            </div>
+                                
+                            <!---If you want to add more sections, keep it above this line-->
+                            
+                            <div class="text-center card rounded-0 border-0 mx-n3" STYLE="font-size:20pt">
+                                <div class="fa-flip-horizontal fa-flip-vertical py-2 pb-1 mb-n1">
+                                    <span class="text-success  font-italic" style="letter-spacing:1px">STATUS!</span> 
+                                </div>
+                            </div>
+                            </div>      
+                    <!-------------------
+                        STATUS SECTION - END
+                    ------------------>
+                        </div>   
+                    </div>
+                </div>    
+                <!---END OF THE FIRST ROW-->
+                
+                <!---SECOND ROW-->
+                    <!-------------------
+                    
+                        EXTRA LINKS SECTION
+                    
+                    ------------------>
+                    <div class="col-md-3 py-2 pl-2">
+                            <div class="card rounded-0 py-2 pr-2 h-100">
+                        <div class="ml-md-2 card rounded-0 p-2 h-100">
+                            <div class="bg-success h-100 w-100" style="position:absolute; bottom:0px; left:0px;">
+                                <div class="card rounded-0 border-0 h-100 mx-1 mx-md-0" style="mix-blend-mode:luminosity;
+                    
+                                background-image:url(https://images.unsplash.com/photo-1631160299919-6a175aa6d189);
+                                background-position:center;
+                                background-size:cover
+                                
+                                ">
+                            </div>
+                            </div>
+                            <div class="p-2 my-auto" style="">
+                            
+                            <div class="text-center card rounded-0 border-0 mx-n3 mt-n1 py-2" STYLE="font-size:20pt;">
+                                    <span  class="text-success font-italic" style="letter-spacing:1px">EXTRA LINKS!</span> 
+                            </div>
+                            
+                            <div class="rounded-0 border-0 mx-n3">
+                            <div class="text-center " STYLE="font-size:15pt">
+                                <div class="card bg-faded text-muted rounded-0 border-0 pb-1">
+                                    <span>Adopts? <br class="d-inline d-lg-none">
+                                                                                           <!--INSERT LINK V-->
+                                            <a class="text-success font-italic" style="text-decoration:underline" href="#">HERE!</a>
+                                </div>
+                                <div class="card text-muted rounded-0 border-0 pb-1">
+                                    <span>Etc? <br class="d-inline d-lg-none">
+                                        <span class="text-success font-italic ml-1">
+                                                                                           <!--INSERT LINK V-->
+                                            <a class="text-success" style="text-decoration:underline" href="#">HERE!</a>
+                                        </span>
+                                </div>
+                                <div class="card bg-faded text-muted rounded-0 border-0 pb-1">
+                                    <span>Etc? <br class="d-inline d-lg-none">
+                                                                                           <!--INSERT LINK V-->
+                                            <a class="text-success font-italic" style="text-decoration:underline" href="#">HERE!</a>
+                                    </span>
+                                </div>
+                                <div class="card text-muted rounded-0 border-0 pb-1">
+                                    <span>Etc? <br class="d-inline d-lg-none">
+                                                                                           <!--INSERT LINK V-->
+                                            <a class="text-success font-italic" style="text-decoration:underline" href="#">HERE!</a>
+                                    </span>
+                                </div>
+                                <div class="card bg-faded text-muted rounded-0 border-0 pb-1">
+                                    <span>Fanart? <br class="d-inline d-lg-none">
+                                                                                           <!--INSERT LINK V-->
+                                            <a class="text-success font-italic" style="text-decoration:underline" href="#">ANYONE HERE!</a>
+                                    </span>
+                                </div>
+                            </div>
+                            </div>
+                                
+                            <!---If you want to add more sections, keep it above this line-->
+                            
+                            <div class="text-center card rounded-0 border-0 mx-n3" STYLE="font-size:20pt">
+                                <div class="fa-flip-horizontal fa-flip-vertical py-2 pb-1 mb-n1">
+                                    <span class="text-success  font-italic" style="letter-spacing:1px">EXTRA LINKS!</span> 
+                                </div>
+                            </div>
+                            </div>
+                            </div>
+                            </div>
+                        </div>                    
+                    <!-------------------
+                        EXTRA LINKS SECTION - END
+                    ------------------>
+                    <!-------------------
+                    
+                        FEATURED STORIES SECTION
+                    
+                    ------------------>
+                    <div class="col-md-9 py-2">
+                        <div class="mx-md-2 card rounded-0 p-2">
+                        <div class="card rounded-0 mx-md-0">
+                                
+                            <!---FEATURED STORIES HEADER-->
+                            <div class="text-center mt-2 card border-0 rounded-0" STYLE="font-size:25pt">
+                                <span>
+                                    <span class="text-success font-italic ml-1" style="letter-spacing:1px">FEATURED STORIES!</span>
+                                </span>
+                            </div>
+                            <!---FEATURED STORIES HEADER - END-->
+                            
+                                <div><hr class="bg-success faded mt-2 mb-0"></div>
+                            
+                            <!---FEATURED STORIES CONTENT SECTION-->
+                            <div class="p-2 card bg-faded border-0 rounded-0">
+                                <div class="row no-gutters">
+                                    
+                                    <!-----------
+                                    
+                                        STORY 1
+                                        
+                                    ------------->
+                                    <div class="col-lg-6 pb-2">
+                                        <div class="card p-2 m-1 rounded-0 h-100">
+                                            <div class="my-auto">
+                                            <!--Story 1 Banner-->
+                                                <a class="text-light" style="text-decoration:none;" 
+                                                href="">
+                                            <div class="card bg-faded rounded-0 border-0 p-1">
+                                                    <div class="bg-success" style="justify-content: center">
+                                                        <div class="block my-auto text-center rounded-0 border- mx-1 mx-md-0" style="min-height:80px; mix-blend-mode:luminosity;
+                                            
+                                                        background-image:url(https://images.unsplash.com/photo-1514756331096-242fdeb70d4a);
+                                                        background-position:center;
+                                                        background-size:cover
+                                                        
+                                                        ">
+                                                            <div class="justify-content-center" style="">
+                                                                <div class="w-100 font-italic text-light bg-dark" style="font-size:20pt; letter-spacing:2px; mix-blend-mode:luminosity;margin-top:20px; opacity:0.8;">
+                                                                    STORY 1
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                            </div></a>
+                                            <!--Story 1 Banner - End-->
+                            
+                                            <div><hr class="bg-success faded mt-2 mx-n2 mb-1"></div>
+                                            
+                                            <!--Story 1 Tags-->
+                                            <div class="row no-gutters justify-content-center mt-2">
+                                                    <div class="mx-1 py-2 py-lg-0"><div class="bg-success rounded text-white pb-1 px-2">Rating</div>
+                                                    </div>
+                                                    <div class="mx-1 py-2 py-lg-0"><div class="bg-success rounded text-white pb-1 px-2 mx-1">Genre</div>
+                                                    </div>
+                                                    <div class="mx-1 py-2 py-lg-0"><div class="bg-success rounded text-white pb-1 px-2 mx-1">Mood</div>
+                                                    </div>
+                                                    <div class="mx-1 pb-2 py-lg-0"><div class="bg-success rounded text-white pb-1 px-2 mx-1">Aesthetic</div>
+                                                    </div>
+                                                    <div class="mx-1 pb-2 py-lg-0"><div class="bg-success rounded text-white pb-1 px-2 mx-1">Theme</div>
+                                                    </div>
+                                            </div>
+                                            <!--Story 1 Tags - End-->
+                                            
+                                            <div><hr class="bg-success faded my-2 mx-n2 mb-0"></div>
+                                            
+                                            <!--Story 1 Description - End-->
+                                            <p class="px-2 text-justify">Short description of your story. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non.</p>
+                                            
+                                            <div><hr class="bg-success faded my-2 mx-n2 "></div>
+                                            
+                                            <!--Story 1 Featured Characters-->
+                                            <div class="row no-gutters justify-content-center text-center">
+                                                
+                                                <a class="btn btn-outline-success col-5 col-lg-2 rounded-0 p-0 m-1" href="">
+                                                <img class="p-1" src="https://images.unsplash.com/photo-1597761855431-414e6fdf0e8a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHBlYXJzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"></a>
+                                                
+                                                <a class="btn btn-outline-success col-5 col-lg-2 rounded-0 p-0 m-1" href="">
+                                                <img class="p-1" src="https://images.unsplash.com/photo-1597761855431-414e6fdf0e8a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHBlYXJzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"></a>
+                                                
+                                                <a class="btn btn-outline-success col-5 col-lg-2 rounded-0 p-0 m-1" href="">
+                                                <img class="p-1" src="https://images.unsplash.com/photo-1597761855431-414e6fdf0e8a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHBlYXJzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"></a>
+                                                
+                                                <a class="btn btn-outline-success col-5 col-lg-2 rounded-0 p-0 m-1" href="">
+                                                <img class="p-1" src="https://images.unsplash.com/photo-1597761855431-414e6fdf0e8a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHBlYXJzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"></a>
+                                                
+                                                <a class="btn btn-outline-success col-5 col-lg-2 rounded-0 p-0 m-1" href="">
+                                                <img class="p-1" src="https://images.unsplash.com/photo-1597761855431-414e6fdf0e8a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHBlYXJzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"></a>
+                                            </div>
+                                            <!--Story 1 Featured Characters - end -->
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <!-----------
+                                    
+                                       STORY 1 - END
+                                    
+                                    ------------->
+                                    
+
+                                    
+                                    <!-----------
+                                    
+                                        STORY 2
+                                        
+                                    ------------->
+                                    <div class="col-lg-6 pb-2">
+                                        <div class="card p-2 m-1 rounded-0 h-100">
+                                            <div class="my-auto">
+                                            <!--Story 2 Banner-->
+                                                <a class="text-light" style="text-decoration:none;" 
+                                                href="">
+                                            <div class="card bg-faded rounded-0 border-0 p-1">
+                                                    <div class="bg-success" style="justify-content: center">
+                                                        <div class="block my-auto text-center rounded-0 border- mx-1 mx-md-0" style="min-height:80px; mix-blend-mode:luminosity;
+                                            
+                                                        background-image:url(https://images.unsplash.com/photo-1565809728089-f896a3a2beb4);
+                                                        background-position:center;
+                                                        background-size:cover
+                                                        
+                                                        ">
+                                                            <div class="justify-content-center" style="">
+                                                                <div class="w-100 font-italic text-light bg-dark" style="font-size:20pt; letter-spacing:2px; mix-blend-mode:luminosity;margin-top:20px; opacity:0.8;">
+                                                                    STORY 2
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                            </div></a>
+                                            <!--Story 2 Banner - End-->
+                            
+                                            <div><hr class="bg-success faded mt-2 mx-n2 mb-1"></div>
+                                            
+                                            <!--Story 2 Tags-->
+                                            <div class="row no-gutters justify-content-center mt-2">
+                                                    <div class="mx-1 py-2 py-lg-0"><div class="bg-success rounded text-white pb-1 px-2">Rating</div>
+                                                    </div>
+                                                    <div class="mx-1 py-2 py-lg-0"><div class="bg-success rounded text-white pb-1 px-2 mx-1">Genre</div>
+                                                    </div>
+                                                    <div class="mx-1 py-2 py-lg-0"><div class="bg-success rounded text-white pb-1 px-2 mx-1">Mood</div>
+                                                    </div>
+                                                    <div class="mx-1 pb-2 py-lg-0"><div class="bg-success rounded text-white pb-1 px-2 mx-1">Aesthetic</div>
+                                                    </div>
+                                                    <div class="mx-1 pb-2 py-lg-0"><div class="bg-success rounded text-white pb-1 px-2 mx-1">Theme</div>
+                                                    </div>
+                                            </div>
+                                            <!--Story 2 Tags - End-->
+                                            
+                                            <div><hr class="bg-success faded my-2 mx-n2 mb-0"></div>
+                                            
+                                            <!--Story 2 Description - End-->
+                                            <p class="px-2 text-justify">Short description of your story. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros. Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque.</p>
+                                            
+                                            <div><hr class="bg-success faded my-2 mx-n2 "></div>
+                                            
+                                            <!--Story 2 Featured Characters-->
+                                            <div class="row no-gutters justify-content-center text-center">
+                                                
+                                                <a class="btn btn-outline-success col-5 col-lg-2 rounded-0 p-0 m-1" href="">
+                                                <img class="p-1" src="https://images.unsplash.com/photo-1597761855431-414e6fdf0e8a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHBlYXJzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"></a>
+                                                
+                                                <a class="btn btn-outline-success col-5 col-lg-2 rounded-0 p-0 m-1" href="">
+                                                <img class="p-1" src="https://images.unsplash.com/photo-1597761855431-414e6fdf0e8a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHBlYXJzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"></a>
+                                                
+                                                <a class="btn btn-outline-success col-5 col-lg-2 rounded-0 p-0 m-1" href="">
+                                                <img class="p-1" src="https://images.unsplash.com/photo-1597761855431-414e6fdf0e8a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHBlYXJzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"></a>
+                                                
+                                                <a class="btn btn-outline-success col-5 col-lg-2 rounded-0 p-0 m-1" href="">
+                                                <img class="p-1" src="https://images.unsplash.com/photo-1597761855431-414e6fdf0e8a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHBlYXJzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"></a>
+                                                
+                                                <a class="btn btn-outline-success col-5 col-lg-2 rounded-0 p-0 m-1" href="">
+                                                <img class="p-1" src="https://images.unsplash.com/photo-1597761855431-414e6fdf0e8a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHBlYXJzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60"></a>
+                                            </div>
+                                            <!--Story 2 Featured Characters - end -->
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                    </div>
+                                    <!-----------
+                                    
+                                       STORY 2 - END
+                                    
+                                    ------------->
+                                    
+                                </div>
+                            </div>
+                            <!---FEATURED STORIES CONTENT SECTION - END-->
+                            
+                                <div><hr class="mt-0 mb-0 bg-success faded d-none d-md-block"></div>
+                            
+                            <!---SPINNY BANNER thing for aesthetics. **IT IS DISABLED ON MOBILE FOR FUNCTIONAL REASONS**-->
+                            <div class="text-success font-italic justify-content-between d-none d-lg-flex px-4 pt-2 pb-3 fa-flip-horizontal fa-flip-vertical" style="font-size:25pt; letter-spacing:10px">
+                                    <div><i class="fad fa-pear small fa-spin mx-2"></i></div>
+                                    <div class="text-success">梨!</div>
+                                    <div><i class="fad fa-pear small fa-spin mx-2"></i></div>
+                                    <div class="text-success">梨!</div>
+                                    <div><i class="fad fa-pear small fa-spin mx-2"></i></div>
+                                    <div class="text-success">梨!</div>
+                                    <div><i class="fad fa-pear small fa-spin mx-2"></i></div>
+                                    <div class="text-success">梨!</div>
+                                    <div><i class="fad fa-pear small fa-spin mx-2"></i></div>
+                                    <div class="text-success">梨!</div>
+                                    <div><i class="fad fa-pear small fa-spin mx-2"></i></div>
+                                    <div class="text-success">梨!</div>
+                                    <div><i class="fad fa-pear small fa-spin mx-2"></i></div>
+                            </div>
+                            <!---End of the spinny banner-->
+                            <!---ABOUT ME PARAGRAPH SECTION - END-->
+                            
+                        </div>
+                        </div>
+                    </div>
+                    <!-------------------
+                         - END
+                    ------------------>
+                <!---END OF THE SECOND ROW-->
+                </div>
+            </div>
+        </div>
+                    </div>      
+        
+        <!------------------------------------
+            / CODE CREDIT /
+            Please don't remove my credit, that would be cringe. lol thanks
+            Feel free to move this somewhere else if you want, but I'd like for it to exist somewhere clear JSEJFSK
+            Feel free to copy-paste if you'd like to credit additional sources.
+        ----------------------------------->
+        <div class="justify-content-between mt-3 mx-n3" style="opacity:0.8">
+            <div class="col"><hr></div>
+                <div class="card rounded-0 p-1">
+                    <div class="card bg-faded rounded-0 d-inline p-1">
+                        <a class="mx-1 text-success" href="/Lymle"><i class="fal fa-code tooltipster" title="Code by LYMLE" /></a>
+                    </div>
+                </div>
+            <div class="col"><hr></div>
+        </div>
+    
+</div>
+</div>
