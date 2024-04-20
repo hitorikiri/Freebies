@@ -1,0 +1,449 @@
+  <!--- /  Code by LYMLE on TOYHOUSE 
+
+    / NOTES /
+    - LINK TO CODES: https://toyhou.se/Lymle
+    - ONLY USE THIS FOR TOYHOUSE. THIS WILL VERY LIKELY BREAK ON OTHER SITES.
+    - I recommend using the live editor made by Circlejourney while editing: https://th.circlejourney.net/
+    
+    - All images use 'mix-blend-mode:luminosity', which is why all images appear greyscale. To remove it, just delete it or a part of it.
+    - None of the sections scroll. It will stretch to fit the content.
+    - This was a quick code so the comments are scarce/ copied from other codes. Should be digestable enough though?
+    
+    / TOS /
+    - Feel free to comment if you use my codes! I would love to see what you did with them & it lets me know that it's not just being... collected lol
+    - Feel free to edit/frankestin as you'd like
+    - You can pay others to edit my codes.
+    - You can use snippets from my codes for your personal/ F2U codes.
+    - If you just edit my templates directly, don't remove the credit.
+    - If you want to distribute an edit of my code publicly, please DM me beforehand.
+    
+    / COLORS / (highlight & use CTRL+F to quick change)
+    - text-primary
+    - bg-primary
+    - text-muted
+    - bg-faded
+    
+    - Accent color is -primary. Highlight -primary to swap bootstrap colors
+    (Options: primary, success, warning, danger, info, secondary)
+    
+    / ICONS / (highlight & use CTRL+F to quick change)
+    - dividers/borders: fad fa-broom
+    - dividers/borders (faded): fad fa-broom fa-flip-horizontal faded
+    
+    / IMAGES / (highlight & use CTRL+F to quick change)
+    - Side Image: https://placeholder.com/1000
+    - Skill 1: https://placeholder.com/1250
+    - Skill 2: https://placeholder.com/1500
+    - Skill 3: https://placeholder.com/2000
+    
+
+ / --->
+
+<div class="container" style="max-width:1200px; letter-spacing:.5px">
+<div class="row no-gutters justify-content-center border-0 text-center">
+    
+      <div class="col-12 col-md-4 mb-2 mb-md-0">
+      <div class="card rounded-0 p-2 bg-faded m-1 h-100">
+          <!---- BG IMAGE COLOR - CHANGE THIS TO ALTER THE LUMINOSITY COLOR ---->
+          <div class="card rounded-0 bg-primary h-100">
+      <div class="card p-1 rounded-0 border-0 card bg-primary h-100" 
+                style="min-height:300px; background-size:cover; background-repeat: no-repeat; background-position:center;
+                mix-blend-mode:luminosity; background-image:url(https://placeholder.com/1000)">
+          <!----AVATAR - CAN BE ANY RATIO, ITLL FIT AUTOMATICALLY---->
+      </div>
+          </div>
+      </div>
+      </div>
+    
+      <div class="col-12 col-md-8">
+      <div class="card rounded-0 p-2 bg-faded m-1 h-100">
+          <div class="card rounded-0 p-3 h-100">
+           <!----NAME - TITLE WILL NOT APPEAR ON SMALLER SCREENS---->
+           <h1 class="pb-2 text-primary" style="font-size:2rem; font-variant:small-caps; font-weight:400; letter-spacing:3px"> 
+                NAME
+           <span class="d-none d-sm-inline text-muted" style="font-size:1.2rem"><br> 
+                TITLE
+           </span>
+           </h1>
+           
+           <hr class="w-100 m-0 pb-2">
+           
+           <div class="row no-gutters" style="font-weight: 400; font-size:1rem;">
+                
+                <!----BASICS SECTION---->
+                <!---- / ALIAS/ NICKNAME / ---->
+                <div class="row no-gutters my-1 px-2 col-12 col-md-6 justify-content-between flex">
+                         <span class="text-left text-uppercase text-truncate col-6" style="letter-spacing:1px"> Alias</span>
+                         <span class="text-right font-italic text-truncate col-6">content</span>
+                </div>
+                <!---- / ALIAS/ NICKNAME - END / ---->
+                
+                <!---- / RACE / SPECIES / ---->
+                <div class="row no-gutters my-1 px-2 col-12 col-md-6 justify-content-between flex">
+                         <span class="text-left text-uppercase text-truncate col-6" style="letter-spacing:1px"> Race</span>
+                         <span class=""></span>
+                         <span class="text-right font-italic text-truncate col-6"> or species</span>
+                </div>
+                <!---- / RACE / SPECIES - END / ---->
+                
+                <!---- / GENDER / ---->
+                <div class="row no-gutters my-1 px-2 col-12 col-md-6 justify-content-between flex">
+                         <span class="text-left text-uppercase text-truncate col-6" style="letter-spacing:1px"> Gender</span>
+                         <span class="text-right font-italic text-truncate col-6">content</span>
+                </div>
+                <!---- / GENDER - END / ---->
+                
+                <!---- / PRONOUNS / ---->
+                <div class="row no-gutters my-1 px-2 col-12 col-md-6 justify-content-between flex">
+                         <span class="text-left text-uppercase text-truncate col-6" style="letter-spacing:1px"> Pronouns</span>
+                         <span class="text-right font-italic text-truncate col-6">content</span>
+                </div>
+                <!---- / PRONOUNS - END / ---->
+                
+                <!---- / AGE / ---->
+                <div class="row no-gutters my-1 px-2 col-12 col-md-6 justify-content-between flex">
+                         <span class="text-left text-uppercase text-truncate col-6" style="letter-spacing:1px"> Age</span>
+                         <span class="text-right font-italic text-truncate col-6">content</span>
+                </div>
+                <!---- / AGE - END / ---->
+                
+                <!---- / HEIGHT / ---->
+                <div class="row no-gutters my-1 px-2 col-12 col-md-6 justify-content-between flex">
+                         <span class="text-left text-uppercase text-truncate col-6" style="letter-spacing:1px"> Height</span>
+                         <span class="text-right font-italic text-truncate col-6">content</span>
+                </div>
+                <!---- / HEIGHT - END / ---->
+                
+                <!---- / OCCUPATION / ---->
+                <div class="row no-gutters my-1 px-2 col-12 col-md-6 justify-content-between flex">
+                         <span class="text-left text-uppercase text-truncate col-6" style="letter-spacing:1px"> Occupation</span>
+                         <span class="text-right font-italic text-truncate col-6">or role</span>
+                </div>
+                <!---- / OCCUPATION ENDED / ---->
+                
+                <!---- / SEXUAL ORIENTATION / ---->
+                <div class="row no-gutters my-1 px-2 col-12 col-md-6 justify-content-between flex">
+                         <span class="text-left text-uppercase text-truncate col-6" style="letter-spacing:1px"> Orientation</span>
+                         <span class="text-right font-italic text-truncate col-6">content</span>
+                </div>
+                <!---- / SEXUAL ORIENTATION - END / ---->
+                
+                <!---- / MBTI / ---->
+                <div class="row no-gutters my-1 px-2 col-12 col-md-6 justify-content-between flex">
+                         <span class="text-left text-uppercase text-truncate col-6" style="letter-spacing:1px"> MBTI</span>
+                         <span class="text-right font-italic text-truncate col-6">content</span>
+                </div>
+                <!---- / MBTI - END / ---->
+                
+                <!---- / ALIGNMENT / ---->
+                <div class="row no-gutters my-1 px-2 col-12 col-md-6 justify-content-between flex">
+                         <span class="text-left text-uppercase text-truncate col-6" style="letter-spacing:1px"> Alignment</span>
+                         <span class="text-right font-italic text-truncate col-6">content</span>
+                </div>
+                
+                </div>
+                
+           <hr class="w-100 mt-2">
+           
+           <!----SMALL PARAGRAPH - Recommended to be used as an about section ---->
+           <p class="mx-1 text-justify" style="font-weight: 400; font-size:.95rem;">
+           
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+           
+           </p>
+           
+           
+           
+           <hr class="w-100">
+        
+        <!----THEME & VOICE LINKS - Can be edited to link references or whatever ya need  ---->
+        <div class="row no-gutters mb-n2">
+            <div class="col-6 pr-1">
+                <div class="card rounded-0 p-1">
+                <a class="btn-block btn btn-primary rounded-0 text-center" style="font-weight:400; font-size:15px; letter-spacing:2px" href="#">VOICE</a> 
+                </div>
+            </div>
+            <div class="col-6 pl-1">
+                <div class="card rounded-0 p-1">
+                <a class="btn-block btn btn-primary rounded-0 text-center" style="font-weight:400; font-size:15px; letter-spacing:2px" href="https://www.youtube.com/playlist?list=PLhnauHMuNeKd4h2-wgfDGNtluFhTiJAns">PLAYLIST</a> 
+                </div>
+            </div>
+        </div>
+        </div>
+        
+      </div>
+      </div>
+    
+        
+        <!---- DIVIDER ---->
+<!---- / DECORATIVE TOP BAR / ---->
+<div class="col-12 px-1 py-2 my-1">
+<div class="card bg-faded  p-1 rounded-0 col-12">
+    <div class="card p-2 px-3 rounded-0">
+        <div class="row no-gutters d-inline justify-content-between d-flex text-muted">
+            <i class="fad fa-broom" /> <i class="fad fa-broom fa-flip-horizontal faded" /> <i class="fad fa-broom" /> <i class="fad fa-broom fa-flip-horizontal faded" />
+            <i class="fad fa-broom" /> <i class="fad fa-broom fa-flip-horizontal faded" /> <i class="fad fa-broom" /> <i class="fad fa-broom fa-flip-horizontal faded" />
+            <i class="fad fa-broom" /> <i class="fad fa-broom fa-flip-horizontal faded" /> <i class="fad fa-broom" /> <i class="fad fa-broom fa-flip-horizontal faded" />
+            <i class="fad fa-broom" /> <i class="fad fa-broom fa-flip-horizontal faded" /> <i class="fad fa-broom" /> <i class="fad fa-broom fa-flip-horizontal faded" />
+            <i class="fad fa-broom" /> <i class="fad fa-broom fa-flip-horizontal faded" /> <i class="fad fa-broom" /> <i class="fad fa-broom fa-flip-horizontal faded" />
+        </div>
+    </div>
+</div>
+</div>
+<!---- / DECORATIVE TOP BAR - END / ---->
+    
+<!---- / SKILLS HEADER / ---->
+      <div class="col-12 mt-n1">
+      <div class="card rounded-0 p-2 bg-faded mx-1 h-100">
+          <div class="card rounded-0 p-3 h-100">
+           <!----NAME - TITLE WILL NOT APPEAR ON SMALLER SCREENS---->
+           <h1 class="text-primary" style="font-size:2rem; font-weight:400;"> 
+                <span style="letter-spacing:3px">SKILLS</span>
+           <span class="d-none d-sm-inline pb-2 text-muted" style="font-size:1.2rem"><br> 
+                "Quote"
+           </span>
+           </h1>
+           
+           <hr class="w-100 m-0 pb-2">
+                
+                <!----BASICS SECTION---->
+           
+           <!----SMALL PARAGRAPH - Recommended to be used as an about section ---->
+           <p class="mx-1 text-justify" style="font-weight: 400; font-size:1rem;">
+           
+                Type an introduction for your character and their skills. This area is meant to generalize their specialities and weaknesses. Make it as long as. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+           
+           </p>
+      </div>
+      </div>
+      
+  </div>
+    
+<!---- / SKILLS HEADER - END / ---->
+    
+<!---- / SKILLS 1 / ---->
+      <div class="col-12 col-md-7 mt-2">
+      <div class="card rounded-0 p-2 bg-faded mx-1 h-100">
+          <div class="card rounded-0 p-3 h-100">
+           <!----NAME - TITLE WILL NOT APPEAR ON SMALLER SCREENS---->
+           <h1 class="text-primary" style="font-size:2rem; font-weight:400;"> 
+                <span style="letter-spacing:3px">SKILL 1</span>
+           <span class="d-none d-sm-inline pb-2 text-muted" style="font-size:1.2rem"><br> 
+                "Quote"
+           </span>
+           </h1>
+           
+           <hr class="w-100 m-0 pb-2">
+           
+           <div class="row no-gutters" style="font-weight: 400; font-size:1rem;">
+                
+                <!----BASICS SECTION---->
+                <div>
+           
+           <!----SMALL PARAGRAPH - Recommended to be used as an about section ---->
+           <p class="mx-1 text-justify" style="letter-spacing:.5px; line-height:">
+           
+                Type an introduction for your character and their skills. This area is meant to generalize their specialities and weaknesses. Make it as long as. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+           
+           </p>
+           
+           <hr class="w-100 my-2">
+           
+           <ul class="mb-0 text-left" style="list-style:square">
+               <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porta eros et velit blandit dapibus.</li>
+               <li>Duis sollicitudin elit sed tellus blandit viverra sed eget odio. </li>
+               <li>Donec accumsan tempor lacus, et venenatis elit feugiat non. </li>
+           </ul>
+                    
+                </div>
+        
+      </div>
+      </div>
+      </div>
+      </div>
+
+
+      <div class="col-12 col-md-5 mt-2">
+      <div class="card rounded-0 p-2 bg-faded mx-1 h-100">
+          <!---- BG IMAGE COLOR - CHANGE THIS TO ALTER THE LUMINOSITY COLOR ---->
+          <div class="card rounded-0 bg-primary h-100">
+      <div class="card p-1 rounded-0 border-0 card h-100" 
+                style="min-height:300px; background-size:cover; background-repeat: no-repeat; background-position:center;
+                mix-blend-mode:luminosity; background-image:url(https://placeholder.com/1250)">
+          <!----AVATAR - CAN BE ANY RATIO, ITLL FIT AUTOMATICALLY---->
+      </div>
+          </div>
+      </div>
+      </div>
+    
+<!---- / SKILLS 1 - END / ---->
+    
+<!---- / SKILLS 2 / ---->
+      <div class="col-12 col-md-5 mt-2">
+      <div class="card rounded-0 p-2 bg-faded mx-1 h-100">
+          <!---- BG IMAGE COLOR - CHANGE THIS TO ALTER THE LUMINOSITY COLOR ---->
+          <div class="card rounded-0 bg-primary h-100">
+      <div class="card p-1 rounded-0 border-0 card h-100" 
+                style="min-height:300px; background-size:cover; background-repeat: no-repeat; background-position:center;
+                mix-blend-mode:luminosity; background-image:url(https://placeholder.com/1500)">
+          <!----AVATAR - CAN BE ANY RATIO, ITLL FIT AUTOMATICALLY---->
+      </div>
+          </div>
+      </div>
+      </div>
+      
+      
+      <div class="col-12 col-md-7 mt-2">
+      <div class="card rounded-0 p-2 bg-faded mx-1 h-100">
+          <div class="card rounded-0 p-3 h-100">
+           <!----NAME - TITLE WILL NOT APPEAR ON SMALLER SCREENS---->
+           <h1 class="text-primary" style="font-size:2rem; font-weight:400;"> 
+                <span style="letter-spacing:3px">SKILL 2</span>
+           <span class="d-none d-sm-inline pb-2 text-muted" style="font-size:1.2rem"><br> 
+                "Quote"
+           </span>
+           </h1>
+           
+           <hr class="w-100 m-0 pb-2">
+           
+           <div class="row no-gutters" style="font-weight: 400; font-size:1rem;">
+                
+                <!----BASICS SECTION---->
+                <div>
+           
+           <!----SMALL PARAGRAPH - Recommended to be used as an about section ---->
+           <p class="mx-1 text-justify" style="letter-spacing:.5px; line-height:">
+           
+                Type an introduction for your character and their skills. This area is meant to generalize their specialities and weaknesses. Make it as long as you'd like. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+           
+           </p>
+                    
+                </div>
+           
+           <hr class="w-100 my-2">
+           
+           <ul class="mb-0 text-left" style="list-style:square">
+               <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porta eros et velit blandit dapibus.</li>
+               <li>Duis sollicitudin elit sed tellus blandit viverra sed eget odio. </li>
+               <li>Donec accumsan tempor lacus, et venenatis elit feugiat non. </li>
+           </ul>
+        
+      </div>
+      </div>
+      </div>
+      </div>
+      
+    
+<!---- / SKILLS 2 - END / ---->
+    
+<!---- / SKILLS 3 / ---->
+      <div class="col-12 col-md-7 mt-2">
+      <div class="card rounded-0 p-2 bg-faded mx-1 h-100">
+          <div class="card rounded-0 p-3 h-100">
+           <!----NAME - TITLE WILL NOT APPEAR ON SMALLER SCREENS---->
+           <h1 class="text-primary" style="font-size:2rem; font-weight:400;"> 
+                <span style="letter-spacing:3px">SKILL 3</span>
+           <span class="d-none d-sm-inline pb-2 text-muted" style="font-size:1.2rem"><br> 
+                "Quote"
+           </span>
+           </h1>
+           
+           <hr class="w-100 m-0 pb-2">
+           
+           <div class="row no-gutters" style="font-weight: 400; font-size:1rem;">
+                
+                <!----BASICS SECTION---->
+                <div>
+           
+           <!----SMALL PARAGRAPH - Recommended to be used as an about section ---->
+           <p class="mx-1 text-justify" style="letter-spacing:.5px; line-height:">
+           
+                Type an introduction for your character and their skills. This area is meant to generalize their specialities and weaknesses. Make it as long as. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+           
+           </p>
+           
+           <hr class="w-100 my-2">
+           
+           <ul class="mb-0 text-left" style="list-style:square">
+               <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porta eros et velit blandit dapibus.</li>
+               <li>Duis sollicitudin elit sed tellus blandit viverra sed eget odio. </li>
+               <li>Donec accumsan tempor lacus, et venenatis elit feugiat non. </li>
+           </ul>
+                    
+                </div>
+        
+      </div>
+      </div>
+      </div>
+      </div>
+
+
+      <div class="col-12 col-md-5 mt-2">
+      <div class="card rounded-0 p-2 bg-faded mx-1 h-100">
+          <!---- BG IMAGE COLOR - CHANGE THIS TO ALTER THE LUMINOSITY COLOR ---->
+          <div class="card rounded-0 bg-primary h-100">
+      <div class="card p-1 rounded-0 border-0 card h-100" 
+                style="min-height:300px; background-size:cover; background-repeat: no-repeat; background-position:right;
+                mix-blend-mode:luminosity; background-image:url(https://placeholder.com/2000)">
+          <!----AVATAR - CAN BE ANY RATIO, ITLL FIT AUTOMATICALLY---->
+      </div>
+          </div>
+      </div>
+      </div>
+    
+<!---- / SKILLS 3 - END / ---->
+ 
+        <!---- DIVIDER ---->
+<!---- / DECORATIVE TOP BAR / ---->
+<div class="col-12 px-1 py-2 my-1">
+<div class="card bg-faded p-1 rounded-0 col-12">
+    <div class="card p-2 px-3 rounded-0">
+        <div class="row no-gutters d-inline justify-content-between d-flex text-muted">
+            <i class="fad fa-broom" /> <i class="fad fa-broom fa-flip-horizontal faded" /> <i class="fad fa-broom" /> <i class="fad fa-broom fa-flip-horizontal faded" />
+            <i class="fad fa-broom" /> <i class="fad fa-broom fa-flip-horizontal faded" /> <i class="fad fa-broom" /> <i class="fad fa-broom fa-flip-horizontal faded" />
+            <i class="fad fa-broom" /> <i class="fad fa-broom fa-flip-horizontal faded" /> <i class="fad fa-broom" /> <i class="fad fa-broom fa-flip-horizontal faded" />
+            <i class="fad fa-broom" /> <i class="fad fa-broom fa-flip-horizontal faded" /> <i class="fad fa-broom" /> <i class="fad fa-broom fa-flip-horizontal faded" />
+            <i class="fad fa-broom" /> <i class="fad fa-broom fa-flip-horizontal faded" /> <i class="fad fa-broom" /> <i class="fad fa-broom fa-flip-horizontal faded" />
+        </div>
+    </div>
+</div>
+</div>
+<!---- / DECORATIVE TOP BAR - END / ---->
+
+</div>
+</div>
+
+  
+  
+  
+<!------------------------------------
+     / CODE CREDIT /
+     Please don't remove my credit, that would be cringe. lol thanks
+     Feel free to move this somewhere else if you want, but I'd like for it to exist somewhere clear JSEJFSK
+     Feel free to copy-paste the link if you'd like to credit additional sources.
+-----------------------------------> 
+    <div class="mx-auto px-1 faded" style="max-width:1200px">
+    <div class="col-12 text-right">
+    
+        <!------------------------------------
+            / CODE CREDIT /
+            Please don't remove my credit, that would be cringe. lol thanks
+            Feel free to move this somewhere else if you want, but I'd like for it to exist somewhere clear JSEJFSK
+            Feel free to copy-paste if you'd like to credit additional sources.
+        ----------------------------------->
+        <div class="justify-content-between mx-n3" style="opacity:">
+            <div class="col my-auto"><hr></div>
+                <div class="card bg-faded rounded-0 p-1">
+                    <div class="card rounded-0 d-inline p-1">
+                        <div class="justify-content-center">
+                            <span class="fa-stack my-1 justify-content-center" style="font-size:10px">
+                                <a class="justify-content-center text-warning p-0 m-0" href="/Lymle">
+                                <i class="fas fa-smoke fa-fw text-primary mx-auto fa-stack-2x" style="opacity:0.25"></i>
+                                <i class="far fa-code fa-fw text-primary mx-auto fa-stack-1x mt-1" style="font-size:10px; transform: rotate(25deg)"></i>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            <div class="col my-auto"><hr></div>
+        </div>
