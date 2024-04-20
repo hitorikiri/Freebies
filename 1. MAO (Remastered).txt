@@ -1,0 +1,180 @@
+<!--- Code by LYMLE on TOYHOUSE 
+
+    Notes: 
+    - This is an old user code I originally made to celebrate the release of MAO by Kairiki Bear. However, I remastered it for fun :)
+    - Be careful with your accent color---it might not be visible in some of the default themes.
+    
+    - I recommend using the live editor when changing custom colors: https://th.circlejourney.net/
+    - If you want to change the social links, look through here: https://fontawesome.com/icons?d=gallery
+    - If you want to change the symbols (the square bullets & decorations) check here: https://www.alt-codes.net/square-symbols
+    
+    Colors:
+    - Accent: #fd6572
+    - Background: #FB435A
+
+--->
+
+<div class="container" style="z-index:199; position:sticky; top:10px;">
+<div class="d-none d-xl-inline-flex float-right pb-2 mr-3 ml-4">
+  <!-- YOUTUBE VIDEO/SONG -->
+  <!-- Replace the letters after the embed/ (the mwnu2aP0Q8g) with the letters after the ?v= in your video's URL. Youtube videos only -->
+  <div class="bg-transparent border-0 text-center">
+      <div class="card bg-faded rounded-0 p-2 col-12">
+           <iframe src="https://www.youtube.com/embed/mwnu2aP0Q8g" frameborder="0"></iframe>
+      </div>
+  
+  </div>
+  <!-- YOUTUBE VIDEO/SONG -->
+</div>
+</div>
+
+<div class="col-12 container my-5" style="font-size:12px; line-height:1.7; max-width:700px">
+    
+    
+  
+    
+<div class="card px-2 rounded-0 row no-gutters">
+
+  <!-- IMG DIVIDER -->
+  <!-- Insert a pattern here! I recommend checking this link for some free ones: https://toyhou.se/6259293.-f2u-transparent-patterns -->
+  <div class="justify-content-center mb-2 row bg-transparent border-0 text-center">
+      <div class="card rounded-0 p-3 col-12"
+      style="background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/images/21854689_dKP8CIfbPHNso5U.png); background-color:#FB435A; background-attachment:fixed">
+      </div>
+  </div>
+  <!-- IMG DIVIDER -->
+  
+  <!-- ABOUT -->
+  <div class="justify-content-center row bg-transparent border-0 text-center my-2">
+      <div class="card bg-faded rounded-0 p-3 col-12">
+           <h3 class="text-uppercase" style="font-weight:300; letter-spacing:2px">◲ Title/Name ◱</h3>
+           <hr class="w-100 m-0 pb-3">
+           <div>
+               
+               <div class="card bg-faded rounded-0 float-right p-1 mx-2 mb-3 d-none d-md-inline"  style="max-width:30%">
+                   <div class="card rounded-0" style="background-color:#fd6572; background-attachment:fixed">
+                        <img class="" style="mix-blend-mode:luminosity" src="https://placehold.co/450x400">
+                   </div>
+               </div>
+           
+               <p class="mb-2">About section. feel free to write about yourself here! </p>
+               <p class="my-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. </p>
+               <p class="my-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+           
+               <hr>
+           
+               <b style="color:#fd6572"><i class="far fa-warning mr-1"/> DISCLAIMER <i class="far fa-warning ml-1"/></b> 
+               <br><i>Feel free to write something here that you find important to disclaim</i>.</p>
+           
+           </div>
+      </div>
+  </div>
+  <!-- ABOUT -->
+  
+  <!-- IMG DIVIDER -->
+  <div class="justify-content-center row bg-transparent border-0 text-center my-2">
+      <div class="card rounded-0 p-3 col-12"
+      style="background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/images/21854689_dKP8CIfbPHNso5U.png); background-color:#FB435A; background-attachment:fixed">
+      </div>
+  </div>
+  <!-- IMG DIVIDER -->
+  
+  <!-- NOTES -->
+  <div class="justify-content-center row bg-transparent border-0 my-2 text-center">
+      
+      <div class="card bg-faded rounded-0 p-3 col-12">
+          
+           <h3 class="text-uppercase" style="font-weight:300; letter-spacing:2px">◲ notes ◱</h3>
+           <hr class="w-100 m-0 pb-2">
+           <!-- CONTENT -->
+           <p>Put content warnings, rules or restrictions, likes and dislikes, or whatever you need to note! Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+           
+           <div><hr></div>
+           
+           <div>
+               <div class="float-left card bg-faded rounded-0 float-left p-1 mx-2 d-none d-md-inline"  style="max-width:30%">
+                    <div class="card rounded-0" style="background-color:#fd6572; background-attachment:fixed">
+                         <img class="" style="mix-blend-mode:luminosity" src="https://placehold.co/450x400">
+                    </div>
+               </div>
+               
+               <div>
+                   <span>▫ Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span><br>
+                   <span>▫ Duis sollicitudin elit sed tellus,</span><br>
+                   <span>▫ blandit viverra sed eget odio.</span><br>
+                   <span>▫ Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus.</span>
+               </div>
+               
+           </div>
+           
+           <!-- CONTENT -->
+      </div>
+      
+  </div>
+  <!-- NOTES -->
+  
+  <!-- DIVIDER -->
+    <div class="justify-content-center row bg-transparent border-0 text-center my-2">
+      <div class="card rounded-0 p-3 col-12"
+      style="background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/images/21854689_dKP8CIfbPHNso5U.png); background-color:#FB435A; background-attachment:fixed">
+      </div>
+  </div>
+  <!-- DIVIDER -->
+  
+  <!-- SOCIALS -->
+  <div class="justify-content-center row bg-transparent border-0 text-center my-2">
+      <div class="card bg-faded rounded-0 p-3 col-12">
+           <h3 class="text-uppercase" style="font-weight:300; letter-spacing:2px">◲ Socials ◱</h3>
+           <hr class="w-100 m-0 pb-2">
+           
+           <div class="col-12">
+           <div class="p-0 m-0 justify-content-between d-flex row" style="list-style:none; font-size:15px">
+               
+               <!-- Do not add more than 5 links or it'll break to a second line -->
+               <!-- The symbols between the links are important for the links being centered -->
+               ⯐
+               <!-- TWITTER -->
+               <a class="col m-0 p-0" style="color:#fd6572" href="#"><i class="fab fa-twitter" /></a> 
+               ⯐
+               <!-- INSTAGRAM -->
+               <a class="col m-0 p-0" style="color:#fd6572" href="#"><i class="fab fa-instagram" /></a>
+               ⯐
+               <!-- TIKTOK -->
+               <a class="col m-0 p-0" style="color:#fd6572" href="#"><i class="fab fa-tiktok" /></a>
+               ⯐
+               <!-- DEVIANTART -->
+               <a class="col m-0 p-0" style="color:#fd6572" href="#"><i class="fab fa-deviantart" /></a>
+               ⯐
+               <!-- KO-FI -->
+               <a class="col m-0 p-0" style="color:#fd6572" href="#"><i class="fas fa-mug-marshmallows" /></a>
+               ⯐
+               
+           </div>
+           </div>
+           
+      </div>
+  </div>
+  <!-- SOCIALS -->
+  
+  <!-- DIVIDER -->
+  <div class="justify-content-center row bg-transparent border-0 text-center my-2">
+      <div class="card rounded-0 p-3 col-12"
+      style="background-image: url(https://f2.toyhou.se/file/f2-toyhou-se/images/21854689_dKP8CIfbPHNso5U.png); background-color:#FB435A; background-attachment:fixed">
+      </div>
+  </div>
+  <!-- DIVIDER -->
+  
+  <!-- CODE CREDIT - DONT TOUCH -->
+  <div class="justify-content-center row bg-transparent border-0 text-center mb-n1 mt-2">
+      <div class="card bg-faded rounded-0 px-2 py-1 col-12 text-right">
+          <span>
+          <a class="col-12 m-0 p-0 pr-2" style="color:#fd6572; border-right:dashed 1px;" href="https://en.wikipedia.org/wiki/Kiki%27s_Delivery_Service"><i class="fal fa-camera-retro" /></a>
+          <a class="col-12 m-0 p-0 pr-2 pl-1" style="color:#fd6572; border-right:dashed 1px;" href="https://toyhou.se/6259293.-f2u-transparent-patterns/gallery"><i class="fal fa-image" /></a>
+          <a class="col-12 m-0 p-0 pl-1" style="color:#fd6572" href="/lymle"><i class="fal fa-code" /></a>
+          </span>
+      </div>
+  </div>
+  <!-- CODE CREDIT - DONT TOUCH -->
+  
+  
+</div>
