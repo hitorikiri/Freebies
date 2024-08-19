@@ -192,7 +192,7 @@
          <div class="col-6 col-md-3 p-1 row no-gutters">
             <div class="col-12 card p-1 rounded-0 bg-faded">
             <div class="col-12 card p-1 rounded-0">
-                <div class="w-100" style="background-size:cover; background-position:center; min-height:155px;
+                <div class="w-100" style="background-color:#c2bff4; background-size:cover; background-position:bottom; min-height:155px; background-blend-mode:luminosity;
                 background-image:url(IMG URL)"></div>
             </div>
             </div>
@@ -203,7 +203,7 @@
         <div class="col-6 col-md-3 p-1 row no-gutters">
             <div class="col-12 card p-1 rounded-0 bg-faded">
             <div class="col-12 card p-1 rounded-0">
-            <div class="w-100" style="background-size:cover; background-position:center; min-height:155px;
+            <div class="w-100" style="background-color:#c2bff4; background-size:cover; background-position:bottom; min-height:155px; background-blend-mode:luminosity;
                 background-image:url(IMG URL)"></div>
             </div>
             </div>
@@ -214,7 +214,7 @@
         <div class="col-6 col-md-3 p-1 row no-gutters">
             <div class="col-12 card p-1 rounded-0 bg-faded">
             <div class="col-12 card p-1 rounded-0">
-            <div class="w-100" style="background-size:cover; background-position:center; min-height:155px;
+            <div class="w-100" style="background-color:#c2bff4; background-size:cover; background-position:bottom; min-height:155px; background-blend-mode:luminosity;
                 background-image:url(IMG URL)"></div>
             </div>
             </div>
@@ -225,7 +225,7 @@
         <div class="col-6 col-md-3 p-1 row no-gutters">
             <div class="col-12 card p-1 rounded-0 bg-faded">
             <div class="col-12 card p-1 rounded-0">
-            <div class="w-100" style="background-size:cover; background-position:center; min-height:155px;
+            <div class="w-100" style="background-color:#c2bff4; background-size:cover; background-position:bottom; min-height:155px; background-blend-mode:luminosity;
                 background-image:url(IMG URL)"></div>
             </div>
             </div>
