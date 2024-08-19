@@ -1,0 +1,364 @@
+<!--- /  Code by LYMLE on TOYHOUSE 
+
+    / NOTES /
+    - LINK TO CODES: https://toyhou.se/Lymle
+    - ONLY USE THIS FOR TOYHOUSE. THIS WILL VERY LIKELY BREAK ON OTHER SITES.
+    - I highly recommend using the live editor made by Circlejourney while editing: https://th.circlejourney.net/
+    
+    - All tabs
+    - No sections scroll. It will stretch to fit the content.
+    - All side images will stretch with the height of the content.
+    - If you want to add those Visual Content Warnings, feel free to copy-paste. I personally didn't add it, as this is meant to be specific and detailed via text. 
+    
+    / PLEASE READ!!! / 
+    - Unlike other codes, I am stricter with my expectations of the use of this one due to the rampant misuse of the Profile Warning widget. 
+    - Please respect my work by respecting my requests. Otherwise, you can edit this code as you wish! 
+    
+    - For the About My Work and Before You Interact sections, please focus on detailing your content only. I filled in how I would talk about my own content down below; feel free to reference that!
+    - Notice how there is no DNI/Blacklist section. DO NOT ADD ONE! This is a content warning, so focus on your content. If a DNI/Blacklist is necessary, write it on your user profile/character/literature instead.
+    
+    / TOS /
+    - Feel free to comment if you use my codes! I would love to see what you did with them & it lets me know that it's not just being... collected lol
+    - Feel free to edit/frankestin as you'd like
+    - You can pay others to edit my codes.
+    - You can use snippets from my codes for your personal/ F2U codes.
+    - If you edit my templates directly, don't remove the credit and do NOT make it P2U.
+    - If you want to distribute an edit of my code publically, please DM me beforehand.
+    
+    / COLORS / (highlight & use CTRL+F to quick change)
+    - text-secondary
+    - text-muted
+    - bg-faded
+    
+    - Accent color is -secondary. Highlight -secondary and use CTRL+F to swap bootstrap colors
+    (Options: primary, success, warning, danger, info, secondary)
+    
+    / ICONS / (highlight & use CTRL+F to quick change)
+    - none
+    
+    / IMAGES / (highlight & use CTRL+F to quick change)
+    - Story 1: https://picsum.photos/2000/1500
+    - Story 2: https://picsum.photos/2100/1600
+    - Story 3: https://picsum.photos/2200/1700
+    - Story 4: https://picsum.photos/2300/1800
+    
+ / --->
+
+<div class="card rounded-0 bg-faded rounded-0 p-2" style="letter-spacing:0.5px; margin-bottom:-2.35rem; margin-left:-2.57rem; margin-right:-2.35rem; margin-top:-8.3rem; min-height:172px;">
+    <div class="card rounded-0">
+  
+  <div class="container text-muted my-4" style="max-width:1400px">
+      <div class="row no-gutters">
+          
+          <!---- INTRO CARD ---->
+          
+          <div class="w-100 card bg-faded rounded-0 p-2">
+              <div class="card rounded-0 p-1">
+                      
+                      <div class="row no-gutters justify-content-between">
+                      <div class="row no-gutters rounded-0">
+                          
+                      <div class="col-12 col-xl-6 p-1 pr-xl-1">
+                          
+                      <div class="p-2 card bg-faded rounded-0 mb-2">
+                        <div class="card bg-faded rounded-0 p-2 px-3 text-uppercase text-secondary" style="font-size:20pt">
+                           <span> About My Work </span>
+                        </div>
+                      </div>
+                      
+                      <div class="p-2 card bg-faded rounded-0 mb-2 mb-xl-0">
+                        <div class="card bg-faded rounded-0 p-2 px-3">
+                          
+                          <div class="text-justify">
+                              
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros. Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque.</p>
+                              
+                              <p><b>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </b> Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                          </div>
+                        </div>
+                      </div>
+                          
+                      </div>
+                      
+                      <div class="col-12 col-xl-6 p-1 pl-xl-1 ">
+                          
+                      <div class="p-2 card bg-faded rounded-0 mb-2">
+                        <div class="card bg-faded rounded-0 p-2 px-3 text-right text-uppercase text-secondary" style="font-size:20pt">
+                           <span> Before You Interact </span>
+                        </div>
+                      </div>
+                          
+                      <div class="p-2 card bg-faded rounded-0 mb-2 mb-xl-0">
+                        <div class="card bg-faded rounded-0 px-3 py-2">
+                          
+                          <ul class="mb-0 pl-3 text-justify" style="list-style:square">
+                              <li class="my-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.Duis porta eros et velit blandit dapibus. </li>
+                              <li class="my-1">Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Curabitur ac finibus eros. Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque.</i></li>
+                              <li class="my-1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non.</li>
+                          </ul>
+                        </div>
+                      </div>
+                      </div>
+                      </div>
+                      
+                  </div>
+              </div>
+          </div>
+          
+          <!---- INTRO CARD - END ---->
+          
+                              
+          
+          <!---- STORY TABS ---->
+          
+          <div class="row no-gutters mt-3">
+          
+            <ul class="nav nav-tabs border-0">
+              <li class="nav-item tab rounded-0">
+                <a class="nav-link text-secondary active" data-toggle="tab" href="#story1">Story 1</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary" data-toggle="tab" href="#story2">Story 2</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary" data-toggle="tab" href="#story3">Story 3</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-secondary" data-toggle="tab" href="#story4">Story 4</a>
+              </li>
+            </ul>
+              
+         </div>
+              
+          </div>
+          <!---- STORY TABS - END ---->
+          
+          <!---- STORY CONTENTS ---->
+          
+          <div class="card rounded-0 bg-faded rounded-0 p-2">
+              <div class="card rounded-0 p-2">
+                      <div class="tab-content">
+                      
+                      <!--- STORY 1 --->
+                      <div class="tab-pane fade show active" id="story1">
+                          <div class="row no-gutters">
+                              
+                              
+                              <div class="col-12 col-xl-8">
+                                  <div class="p-2 mr-xl-1 mb-2 card bg-faded rounded-0">
+                                      <div class="card bg-faded rounded-0 p-2 px-3">
+                                      <div class="justify-content-between text-uppercase">
+                                        <span style="font-size:30px"> Story 1</span>
+                                        <span class="faded my-auto d-none d-xl-inline">Rating ▫ Genre ▫ Main/Secondary/Tetriary</span>
+                                      </div>
+                                      </div>
+                                  </div>
+                                  
+                                  <div class="p-2 mr-xl-1 mb-2 mb-xl-0 card bg-faded rounded-0">
+                                      <div class="card bg-faded rounded-0 p-2 px-3">
+                                      <div class="mt-2">
+                                          Short description. Type a summary of your story & its content here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros.
+                                          <ul class="mt-2" style="list-style:square">
+                                              <li><b>Trigger one.</b> Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. </li>
+                                                  <ul class="mb-1" style="opacity:.75">
+                                                      <li>Additional note. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+                                                  </ul>
+                                              <li><b>Trigger two.</b> Curabitur ac finibus eros. Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque.</li>
+                                              <li><b>Trigger three.</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus.</li>
+                                              <li><b>Trigger four.</b> Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque. </li>
+                                                  <ul class="mb-1" style="opacity:.75">
+                                                      <li>Additional note</li>
+                                                      <li>Additional note</li>
+                                                  </ul>
+                                          </ul>
+                                      </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              
+                              <div class="col-12 col-xl-4">
+                                  <div class="p-2 ml-xl-1 card bg-faded rounded-0 h-100">
+                                      <div class="h-100" style="background-size:cover; background-position:center; min-height:250px;
+                                      ; background-image:url(https://picsum.photos/2000/1500)"></div>
+                                  </div>
+                              </div>
+                              </div>
+                            </div>
+                      <!--- STORY 1 - END --->
+                      
+                      <!--- STORY 2 --->
+                      <div class="tab-pane fade" id="story2">
+                          <div class="row no-gutters">
+                              
+                              <div class="col-12 col-xl-4">
+                                  <div class="p-2 mr-xl-1 card bg-faded rounded-0 h-100">
+                                      <div class="h-100" style="background-size:cover; background-position:center; min-height:250px;
+                                      ; background-image:url(https://picsum.photos/2100/1600)"></div>
+                                  </div>
+                              </div>
+                              
+                              
+                              <div class="col-12 col-xl-8">
+                                  <div class="p-2 ml-xl-1 mb-2 card bg-faded rounded-0">
+                                      <div class="card bg-faded rounded-0 p-2 px-3">
+                                      <div class="justify-content-between text-uppercase">
+                                        <span style="font-size:30px"> Story 2</span>
+                                        <span class="faded my-auto d-none d-xl-inline">Rating ▫ Genre ▫ Main/Secondary/Tetriary</span>
+                                      </div>
+                                      </div>
+                                  </div>
+                                  
+                                  <div class="p-2 ml-xl-1 mb-2 mb-xl-0 card bg-faded rounded-0">
+                                      <div class="card bg-faded rounded-0 p-2 px-3">
+                                      <div class="mt-2">
+                                          Short description. Type a summary of your story & its content here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros.
+                                          <ul class="mt-2" style="list-style:square">
+                                              <li><b>Trigger one.</b> Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. </li>
+                                                  <ul class="mb-1" style="opacity:.75">
+                                                      <li>Additional note. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+                                                  </ul>
+                                              <li><b>Trigger two.</b> Curabitur ac finibus eros. Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque.</li>
+                                              <li><b>Trigger three.</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus.</li>
+                                              <li><b>Trigger four.</b> Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque. </li>
+                                                  <ul class="mb-1" style="opacity:.75">
+                                                      <li>Additional note</li>
+                                                      <li>Additional note</li>
+                                                  </ul>
+                                          </ul>
+                                      </div>
+                                      </div>
+                                  </div>
+                              
+                              
+                              </div>
+                              </div>
+                      </div>
+                      <!--- STORY 2 - END --->
+                      
+                      <!--- STORY 3 --->
+                      <div class="tab-pane fade" id="story3">
+                          <div class="row no-gutters">
+                              
+                              
+                              <div class="col-12 col-xl-8">
+                                  <div class="p-2 mr-xl-1 mb-2 card bg-faded rounded-0">
+                                      <div class="card bg-faded rounded-0 p-2 px-3">
+                                      <div class="justify-content-between text-uppercase">
+                                        <span style="font-size:30px"> Story 3</span>
+                                        <span class="faded my-auto d-none d-xl-inline">Rating ▫ Genre ▫ Main/Secondary/Tetriary</span>
+                                      </div>
+                                      </div>
+                                  </div>
+                                  
+                                  <div class="p-2 mr-xl-1 mb-2 mb-xl-0 card bg-faded rounded-0">
+                                      <div class="card bg-faded rounded-0 p-2 px-3">
+                                      <div class="mt-2">
+                                          Short description. Type a summary of your story & its content here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros.
+                                          <ul class="mt-2" style="list-style:square">
+                                              <li><b>Trigger one.</b> Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. </li>
+                                                  <ul class="mb-1" style="opacity:.75">
+                                                      <li>Additional note. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+                                                  </ul>
+                                              <li><b>Trigger two.</b> Curabitur ac finibus eros. Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque.</li>
+                                              <li><b>Trigger three.</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. </li>
+                                              <li><b>Trigger four.</b> Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque. </li>
+                                                  <ul class="mb-1" style="opacity:.75">
+                                                      <li>Additional note</li>
+                                                      <li>Additional note</li>
+                                                  </ul>
+                                          </ul>
+                                      </div>
+                                      </div>
+                                  </div>
+                              </div>
+                              
+                              <div class="col-12 col-xl-4">
+                                  <div class="p-2 ml-xl-1 card bg-faded rounded-0 h-100">
+                                      <div class="h-100" style="background-size:cover; background-position:center; min-height:250px;
+                                      ; background-image:url(https://picsum.photos/2200/1700)"></div>
+                                  </div>
+                              </div>
+                              </div>
+                      </div>
+                      <!--- STORY 3 - END --->
+                      
+                      <!--- STORY 4 --->
+                      <div class="tab-pane fade" id="story4">
+                          <div class="row no-gutters">
+                              
+                              <div class="col-12 col-xl-4">
+                                  <div class="p-2 mr-xl-1 card bg-faded rounded-0 h-100">
+                                      <div class="h-100" style="background-size:cover; background-position:bottom; min-height:250px;
+                                      ; background-image:url(https://picsum.photos/2300/1800)"></div>
+                                  </div>
+                              </div>
+                              
+                              
+                              <div class="col-12 col-xl-8">
+                                  <div class="p-2 ml-xl-1 mb-2 card bg-faded rounded-0">
+                                      <div class="card bg-faded rounded-0 p-2 px-3">
+                                      <div class="justify-content-between text-uppercase">
+                                        <span style="font-size:30px"> Story 4</span>
+                                        <span class="faded my-auto d-none d-xl-inline">Rating ▫ Genre ▫ Main/Secondary/Tetriary</span>
+                                      </div>
+                                      </div>
+                                  </div>
+                                  
+                                  <div class="p-2 ml-xl-1 mb-2 mb-xl-0 card bg-faded rounded-0">
+                                      <div class="card bg-faded rounded-0 p-2 px-3">
+                                      <div class="mt-2">
+                                          Short description. Type a summary of your story & its content here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros.
+                                          <ul class="mt-2" style="list-style:square">
+                                              <li><b>Trigger one.</b> Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. </li>
+                                                  <ul class="mb-1" style="opacity:.75">
+                                                      <li>Additional note. Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
+                                                  </ul>
+                                              <li><b>Trigger two.</b> Curabitur ac finibus eros. Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque.</li>
+                                              <li><b>Trigger three.</b> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. </li>
+                                              <li><b>Trigger four.</b> Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque. </li>
+                                                  <ul class="mb-1" style="opacity:.75">
+                                                      <li>Additional note</li>
+                                                      <li>Additional note</li>
+                                                  </ul>
+                                          </ul>
+                                      </div>
+                                      </div>
+                                  </div>
+                              
+                              
+                              </div>
+                              </div>
+                      </div>
+                      <!--- STORY 4 - END --->
+                      
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <!---- STORY CONTENTS - END ---->     
+        
+        <!------------------------------------
+            / CODE CREDIT /
+            Please don't remove my credit, that would be cringe. lol thanks
+            Feel free to move this somewhere else if you want, but I'd like for it to exist somewhere clear JSEJFSK
+            Feel free to copy-paste if you'd like to credit additional sources.
+        ----------------------------------->
+        <div class="justify-content-between mb-3 mx-n3" style="opacity:0.8">
+            <div class="col my-auto"><div class="col-12 card"></div></div>
+                <div class="card bg-faded rounded-0 p-1">
+                    <div class="card rounded-0 d-inline p-1">
+                        <a class="mx-1 text-secondary" href="/Lymle"><i class="fal fa-code tooltipster" title="Code by LYMLE" /></a>
+                    </div>
+                </div>
+            <div class="col my-auto"><div class="col-12 card"></div></div>
+        </div>
+    
+</div>
+</div>
+          
+      </div>
+  </div>
+  
+  <!--paste warnings above this line-->
+</div>
