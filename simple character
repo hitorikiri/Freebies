@@ -1,0 +1,144 @@
+<!--- /  Code by LYMLE on TOYHOUSE 
+
+    / NOTES /
+    - LINK TO CODES: https://toyhou.se/Lymle
+    - ONLY USE THIS FOR TOYHOUSE. THIS WILL VERY LIKELY BREAK ON OTHER SITES.
+    - I highly recommend using the live editor made by Circlejourney while editing: https://th.circlejourney.net/
+    
+    - No sections scroll. It will stretch to fit the content.
+    - All side images will stretch with the height of the content.
+    - The image has a luminosity filter; it changes colors based on the boostrap theme. To remove it, just delete "mix-blend-mode:luminosity"
+    
+    / TOS /
+    - Feel free to comment if you use my codes! I would love to see what you did with them & it lets me know that it's not just being... collected lol
+    - Feel free to edit/frankestin as you'd like
+    - You can pay others to edit my codes.
+    - You can use snippets from my codes for your personal/ F2U codes.
+    - If you edit my templates directly, don't remove the credit and do NOT make it P2U.
+    - If you want to distribute an edit of my code publically, please DM me beforehand.
+    
+    / COLORS / (highlight & use CTRL+F to quick change)
+    - text-secondary
+    - text-muted
+    - bg-faded
+    - bg-secondary
+    
+    - Accent color is -secondary. Highlight -secondary and use CTRL+F to swap bootstrap colors
+    (Options: primary, success, warning, danger, info, secondary)
+    
+    / ICONS / (highlight & use CTRL+F to quick change)
+    - quote-left
+    - quote-right
+    
+    / IMAGES / (highlight & use CTRL+F to quick change)
+    - Sidebar Image: https://picsum.photos/2000/1700
+    
+ / --->
+
+
+<div class="card border-0 py-4" style="margin-top:-55px; margin-bottom:-56px;">
+    
+<div class="col-12 bg-secondary faded card mb-3 d-none"></div>
+
+<div class="container">
+    <div class="card bg-faded rounded-0 p-2">
+        <div class="card rounded-0 p-2">
+            
+            <div class="row no-gutters">
+            
+            <div class="col-12 mb-2 d-none d-lg-inline">
+                    <div class="card bg-faded rounded-0 p-2">
+                        <div class="card rounded-0 p-3">
+                            <div class="justify-content-between my-auto h1 font-weight-normal">
+                                <i class="fas fa-quote-left"/>
+                                
+                                <div class="card border-0 w-100 mx-3 text-justify" style="font-size:14pt">
+                                    Quote. Write as much as you want! The quote box will expand as much as necessary to fit your quote. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio.
+                                    
+                                    <div class="text-right mt-1 mr-n4 font-italic small">~ Author, Source</div>
+                                </div>
+                                
+                                <i class="fas fa-quote-right"/>
+                            </div>
+                        
+                        </div>
+                    </div>
+            </div>
+                
+                <div class="col-12 col-lg-5 pr-lg-1">
+                    <div class="card bg-faded h-100 rounded-0 p-2">
+                    <div class="card bg-secondary h-100 rounded-0 border-0">
+                        <div class="card h-100 rounded-0 border-0" style="background-size:cover; background-position:center; min-height:350px;
+                        background-image:url(https://picsum.photos/2000/1700); mix-blend-mode:luminosity">
+                        </div>
+                    </div></div>
+                </div>
+                
+                <div class="col-12 col-lg-7 pl-lg-1 mt-2 mt-lg-0">
+                    <div class="card bg-faded h-100 rounded-0 p-2">
+                        <div class="card h-100 rounded-0 p-3">
+                        <div class="my-auto">
+                            
+                        <div class="mb-3">
+                            <h1>About</h1>
+                            <div><hr class="mx-n3 my-1"></div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros. Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque.</p>
+                        </div>
+                            
+                        <div class="mb-3">
+                            <h1>Background</h1>
+                            <div><hr class="mx-n3 my-1"></div>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros. Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque.</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros. Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque.</p>
+                        </div>
+                            
+                        <div>
+                            <h1>Trivia</h1>
+                            <div><hr class="mx-n3 my-1"></div>
+                            <ul class="pl-4 mb-0" style="list-style:square;">
+                                <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio.</li>
+                                <li>Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros.</li>
+                                <li>Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque.</li>
+                            </ul>
+                        </div>
+                        
+                        
+                        
+                        </div>
+                    </div></div>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+  
+        
+        <!------------------------------------
+            / CODE CREDIT /
+            Please don't remove my credit, that would be cringe. lol thanks
+            Feel free to move this somewhere else if you want, but I'd like for it to exist somewhere clear JSEJFSK
+            Feel free to copy-paste if you'd like to credit additional sources.
+        ----------------------------------->
+        <div class="justify-content-between mt-3" style="opacity:0.8">
+            <div class="col my-auto"><div class="col-12 card"></div></div>
+                <div class="card bg-faded rounded-0 p-1">
+                    <div class="card rounded-0 d-inline p-1">
+                        <a class="mx-1 text-secondary" href="/Lymle"><i class="fal fa-code tooltipster" title="Code by LYMLE" /></a>
+                    </div>
+                </div>
+            <div class="col my-auto"><div class="col-12 card"></div></div>
+        </div>
+    
+</div>
+</div>
+          
+      </div>
+  </div>
+  
+  <!--paste warnings above this line-->
+</div>
+
+<div class="col-12 bg-secondary faded card mt-3 d-none"></div></div></div>
