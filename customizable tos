@@ -1,0 +1,407 @@
+<!--- /  Code by LYMLE on TOYHOUSE 
+
+    / NOTES /
+    - LINK TO CODES: https://toyhou.se/Lymle
+    - ONLY USE THIS FOR TOYHOUSE. THIS WILL VERY LIKELY BREAK ON OTHER SITES.
+    - I highly recommend using the live editor made by Circlejourney while editing: https://th.circlejourney.net/
+    
+    - No sections scroll. It will stretch to fit the content.
+    - You can easily add/remove sections of this code. However, make sure you edit the Jump To... and header links so the jumps work properly!
+    - The TOC side image is double layered. This can be easily altered.
+    - The image has a luminosity filter; it changes colors based on the boostrap theme. To remove it, just delete "mix-blend-mode:luminosity"
+    
+    / TOS /
+    - Feel free to comment if you use my codes! I would love to see what you did with them & it lets me know that it's not just being... collected lol
+    - Feel free to edit/frankestin as you'd like
+    - You can pay others to edit my codes.
+    - You can use snippets from my codes for your personal/ F2U codes.
+    - If you edit my templates directly, don't remove the credit and do NOT make it P2U.
+    - If you want to distribute an edit of my code publically, please DM me beforehand.
+    
+    / TEXT SYLIZATION /
+    - [Accented text] <span class="text-warning"></span>
+    - [Accented + bolded text] <span class="text-warning font-weight-bold"></span>
+    - [Link + accented + bolded] <a class="text-warning" style="text-decoration:underline" href="#"></a>
+    
+    - <li class="mb-2">bullet</li>
+    
+    / COLORS / (highlight & use CTRL+F to quick change)
+    - text-warning
+    - text-muted
+    - bg-faded
+    
+    - Accent color is -warning. Highlight -warning and use CTRL+F to swap bootstrap colors
+    (Options: primary, success, warning, danger, info, secondary)
+    
+    / ICONS / (highlight & use CTRL+F to quick change)
+    - fad fa-fog
+    
+    / IMAGES / (highlight & use CTRL+F to quick change)
+    - Background: https://images.unsplash.com/photo-1499346030926-9a72daac6c63?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80
+    - Top image: https://picsum.photos/2000/1700
+    
+    https://picsum.photos/2000
+    
+ / --->
+
+<div class="col-12 card border-0 rounded-0 py-5" style="z-index:99; margin-top:-195px; margin-bottom:-95px">
+<div class="container p-0 text-muted" style="line-height:1.7; letter-spacing:.5px; font-size:13pt; font-family: Helvetica">
+
+<!------LAST UPDATED------>
+<div class="mx-auto" style="max-width:700px">
+    <div class="card bg-faded rounded-0 p-2 mb-3">
+        <div class="card rounded-0 p-2">
+            
+            <div class="display-4 text-center px-1" style="font-size:1.8rem; font-variant:small-caps"> 
+                            <small>these terms of service are in effect as of...</small>
+                            <br><div class="mt-1 text-warning">SEPTEMBER 1, 2024</div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+<!------MUSIC PLAYER------>
+<div class="d-none d-xl-inline-flex float-right pb-2" style="z-index:199; position:sticky; top:10px; margin-right:-75px">
+    <div class="card bg-faded rounded-0 p-2" style="">
+    <div class="card rounded-0 p-1">
+            <iframe class="tooltipster ml-n1 pr-2" style="width:3rem; height:2rem; position:absolute; opacity:0.00000001; z-index:200"
+            src="https://www.youtube.com/embed/0w4BiPznSwY?list=PLHtNsLkzcWr3LtvhnaM40TBJ956ZjLp4K" title="Lucas Paakh -「Forests and Oceans」album" frameborder="0">
+            </iframe>
+<!------------- INSERT THE YOUTUBE VIDEO CODE HERE ^ -------------->
+            <span class="fa-stack my-1" style="font-size:12px">
+                <i class="fas fa-smoke fa-fw text-warning mx-auto fa-stack-2x" style="opacity:0.25"></i>
+                <i class="fad fa-list-music fa-fw text-warning mx-auto fa-stack-1x" style="font-size:15px; transform: rotate(-25deg)"></i>
+            </span>
+    </div>
+    </div>
+</div>
+<!--MUSIC PLAYER - END-->
+
+
+<div class="col-12 card bg-faded rounded-0 p-2" id="title">
+<div class="card rounded-0 px-1 px-md-3 py-1 pt-md-3">
+    <div class="row no-gutters justify-content-center">
+        
+        <div class="col-12 pb-3">
+        <div class="card bg-faded rounded-0 p-2">
+            <div class="card rounded-0 p-3">
+                <div class="display-4 text-center" style="font-size:2.5rem"> 
+                
+                    <i class="text-warning fad fa-smoke mb-3 mb-md-0" /> <br class="d-inline d-md-none">
+                    <span class="mx-md-3" style="font-variant:small-caps;">
+                        Terms Of Service </span><br class="d-inline d-md-none">
+                    <i class="text-warning fad fa-smoke mt-3 mb-md-0 fa-flip-horizontal" />
+                    
+                    <div class="row justify-content-center mx-n3">
+                    <div class="card col rounded-0 mt-3 d-none d-md-inline"></div>
+                    </div>
+                    
+                    <span class="d-none d-md-inline" style="font-size:1.5rem">Correlating to <a class="text-warning" style="text-decoration:none" href="/USERNAME">USERNAME</a> & their art commssions.</span>
+                    
+                </div>
+            </div>
+        </div>
+        </div>
+        
+        
+    <div class="row no-gutters">
+        <div class="col-lg-4 pr-lg-2 mb-3">
+            <div class="card rounded-0 bg-faded p-2">
+            <div class="card rounded-0 p-0">
+            <a class="display-4 btn-block btn btn-outline-warning border-0 rounded-0" style="font-variant:small-caps; font-size:1.5rem" 
+            href="#">COMMISSION INFO</a>
+            </div></div>
+        </div>
+        <div class="col-lg-4 px-lg-2 mb-3">
+            <div class="card rounded-0 bg-faded p-2">
+            <div class="card rounded-0 p-0">
+            <a class="display-4 btn-block btn btn-outline-warning border-0 rounded-0" style="font-variant:small-caps; font-size:1.5rem" 
+            href="#">ART EXAMPLES</a>
+            </div></div>
+        </div>
+        <div class="col-lg-4 pl-lg-2 mb-3">
+            <div class="card rounded-0 bg-faded p-2">
+            <div class="card rounded-0 p-0">
+            <a class="display-4 btn-block btn btn-outline-warning border-0 rounded-0" style="font-variant:small-caps; font-size:1.5rem" 
+            href="https://toyhou.se/~messages/create/USERNAME">DM ME!</a>
+            </div></div>
+        </div>
+
+        
+        <div class="col pb-3" style="max-width:350px">
+        <div class="card bg-faded rounded-0 p-2 h-100">
+            <div class="card rounded-0 p-3 h-100">
+                
+                <!-- The Table of Contents/ Jump To Section. Add as many as you'd like, content box stretches to fit the content-->
+                     <div class="h-100" style="font-size:1.3rem; min-height:100px"> 
+                            <span class="display-4 ml-3" style="font-size:2rem; font-variant:small-caps">Jump To <span style="letter-spacing:5px">...</span></span> 
+                            
+                            <div class="card bg-faded rounded-0 my-1 mb-2 col-12"></div>
+                            
+                            <ul class="ml-4 mb-0 font-weight-light" style="list-style-type: upper-roman;">
+                                <li class="mb-1"><a class="text-warning" style="text-decoration:none" href="#Disclaimer">Disclaimer</a></li>
+                                <li class="mb-1"><a class="text-warning" style="text-decoration:none" href="#Nutshell">In A Nutshell</a></li>
+                                <li class="mb-1"><a class="text-warning" style="text-decoration:none" href="#Contact">Contact</a></li>
+                                <li class="mb-1"><a class="text-warning" style="text-decoration:none" href="#Transactions">Payment & Refunds</a></li>
+                                <li class="mb-1"><a class="text-warning" style="text-decoration:none" href="#Process">Process</a></li>
+                                <li class="mb-1"><a class="text-warning" style="text-decoration:none" href="#Rights">Artist/Client Rights</a></li>
+                            </ul>
+                     </div>
+            </div>
+        </div>
+        </div>
+        
+        <div class="col pb-3 pl-xl-3">
+        <div class="card bg-faded rounded-0 p-2 h-100">
+            <div class="card rounded-0 p-2 h-100">
+                
+                <div class="bg-warning h-100">
+                    <!--BACKGROUND IMAGE (if you're using a transparent img)-->
+                    <!--Both images are set to harmonize with the bootstrap bg color, remove "luminosity" to remove the filter-->
+                    <div class="h-100" style="mix-blend-mode:luminosity; background-size: cover; background-position: bottom; background-repeat: no-repeat;
+                     background-image:url(https://images.unsplash.com/photo-1499346030926-9a72daac6c63?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80)">
+                    
+                    <!--MAIN IMAGE-->
+                    <!--You can use a mascot, logo, etc...
+                        Depending on the image's width and composition, you may want to change the max-width percentage or the background-position to center/bottom/left/right/etc.
+                    -->
+                     <div class="mx-auto h-100" style="max-width:45%; background-size: cover; background-position: top; background-repeat: no-repeat;
+                     background-image:url(https://file.garden/ZRX9D_KULjLI5-u8/Toyhou.se%20Dump/yemll2%20transparent2.png)">
+                     </div>
+                     
+                     </div>
+                </div>
+            
+            </div>
+        </div>
+        </div>
+        
+        <!-------DISCLAIMER------->
+        <div class="col-12 pb-3" id="Disclaimer">
+        <div class="card bg-faded rounded-0 p-2">
+            <div class="card rounded-0 py-2">
+                    
+                <div class="display-4 text-center my-2" style="font-variant:small-caps; font-size:2rem" > 
+                    Disclaimer
+                </div>
+                
+                    <div class="card bg-faded rounded-0 my-1 col-12"></div>
+                
+                <ul class="mt-2 mx-lg-5 mx-2" style="list-style-type: upper-roman;">
+                            <li class="mb-2">Bullet</li>
+                            <li class="mb-0">Bullet</li>
+                                <ul class="mb-2" style="list-style-type: lower-roman; font-size:11.7pt">
+                                    <li>Bullet</li>
+                                    <li>Bullet</li>
+                                </ul>
+                            <li class="mb-2">Bullet</li>
+                    
+                </ul>
+                
+                    <div class="card bg-faded rounded-0 mt-n2 mb-3 col-12"></div>
+                            
+                <div class="text-center mt-n2 mb-1" style="font-variant:small-caps; font-size:1.5rem" > 
+                    <a class="text-warning" style="text-decoration:none" href="#title">Back To Top</a>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+        <!-------END OF DISCLAIMER------->
+        
+        
+        
+        <div class="col-12 pb-3" id="Nutshell">
+        <div class="card bg-faded rounded-0 p-2">
+            <div class="card rounded-0 py-2">
+                    
+                <div class="display-4 text-center my-2" style="font-variant:small-caps; font-size:2rem" > 
+                    In a nutshell
+                </div>
+                
+                    <div class="card bg-faded rounded-0 my-1 col-12"></div>
+                
+                <ul class="mt-2 mx-lg-5 mx-2" style="list-style-type: upper-roman;">
+                            <li class="mb-2">Bullet</li>
+                            <li class="mb-0">Bullet</li>
+                                <ul class="mb-2" style="list-style-type: lower-roman; font-size:11.7pt">
+                                    <li>Bullet</li>
+                                    <li>Bullet</li>
+                                </ul>
+                            <li class="mb-2">Bullet</li>
+                </ul>
+                
+                    <div class="card bg-faded rounded-0 mt-n2 mb-3 col-12"></div>
+                            
+                <div class="text-center mt-n2 mb-1" style="font-variant:small-caps; font-size:1.5rem" > 
+                    <a class="text-warning" style="text-decoration:none" href="#title">Back To Top</a>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+        <!-------END OF IN A NUTSHELL------->
+        
+        
+        
+        <div class="col-12 pb-3" id="Contact">
+        <div class="card bg-faded rounded-0 p-2">
+            <div class="card rounded-0 py-2">
+                    
+                <div class="display-4 text-center my-2" style="font-variant:small-caps; font-size:2rem" > 
+                    Contact
+                </div>
+                
+                    <div class="card bg-faded rounded-0 my-1 col-12"></div>
+                
+                <ul class="mt-2 mx-lg-5 mx-2" style="list-style-type: upper-roman;">
+                            <li class="mb-2">Bullet</li>
+                            <li class="mb-0">Bullet</li>
+                                <ul class="mb-2" style="list-style-type: lower-roman; font-size:11.7pt">
+                                    <li>Bullet</li>
+                                    <li>Bullet</li>
+                                </ul>
+                            <li class="mb-2">Bullet</li>
+                </ul>
+                
+                    <div class="card bg-faded rounded-0 mt-n2 mb-3 col-12"></div>
+                            
+                <div class="text-center mt-n2 mb-1" style="font-variant:small-caps; font-size:1.5rem" > 
+                    <a class="text-warning" style="text-decoration:none" href="#title">Back To Top</a>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+        <!-------END OF CONTACT------->
+        
+        
+        
+        <div class="col-12 pb-3" id="Transactions">
+        <div class="card bg-faded rounded-0 p-2">
+            <div class="card rounded-0 py-2">
+                    
+                <div class="display-4 text-center my-2" style="font-variant:small-caps; font-size:2rem" > 
+                    Payment & Refunds
+                </div>
+                
+                    <div class="card bg-faded rounded-0 my-1 col-12"></div>
+                
+                <ul class="mt-2 mx-lg-5 mx-2" style="list-style-type: upper-roman;">
+                            <li class="mb-2">Bullet</li>
+                            <li class="mb-0">Bullet</li>
+                                <ul class="mb-2" style="list-style-type: lower-roman; font-size:11.7pt">
+                                    <li>Bullet</li>
+                                    <li>Bullet</li>
+                                </ul>
+                            <li class="mb-2">Bullet</li>
+                </ul>
+                
+                    <div class="card bg-faded rounded-0 mt-n2 mb-3 col-12"></div>
+                            
+                <div class="text-center mt-n2 mb-1" style="font-variant:small-caps; font-size:1.5rem" > 
+                    <a class="text-warning" style="text-decoration:none" href="#title">Back To Top</a>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+        <!-------END OF Payment & Refunds------->
+        
+        
+        
+        <div class="col-12 pb-3" id="Process">
+        <div class="card bg-faded rounded-0 p-2">
+            <div class="card rounded-0 py-2">
+                    
+                <div class="display-4 text-center my-2" style="font-variant:small-caps; font-size:2rem" > 
+                    Process
+                </div>
+                
+                    <div class="card bg-faded rounded-0 my-1 col-12"></div>
+                
+                <ul class="mt-2 mx-lg-5 mx-2" style="list-style-type: upper-roman;">
+                            <li class="mb-2">Bullet</li>
+                            <li class="mb-0">Bullet</li>
+                                <ul class="mb-2" style="list-style-type: lower-roman; font-size:11.7pt">
+                                    <li>Bullet</li>
+                                    <li>Bullet</li>
+                                </ul>
+                            <li class="mb-2">Bullet</li>
+                            
+                             
+                </ul>
+                
+                    <div class="card bg-faded rounded-0 mt-n2 mb-3 col-12"></div>
+                            
+                <div class="text-center mt-n2 mb-1" style="font-variant:small-caps; font-size:1.5rem" > 
+                    <a class="text-warning" style="text-decoration:none" href="#title">Back To Top</a>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+        <!-------END OF Process-------> 
+        
+        
+        
+        <div class="col-12 pb-3" id="Rights">
+        <div class="card bg-faded rounded-0 p-2">
+            <div class="card rounded-0 py-2">
+                    
+                <div class="display-4 text-center my-2" style="font-variant:small-caps; font-size:2rem" > 
+                    Artist and Client Rights
+                </div>
+                
+                    <div class="card bg-faded rounded-0 my-1 col-12"></div>
+                
+                <ul class="mt-2 mx-lg-5" style="list-style-type: upper-roman;">
+                            <li class="mb-2">Bullet</li>
+                            <li class="mb-0">Bullet</li>
+                                <ul class="mb-2" style="list-style-type: lower-roman; font-size:11.7pt">
+                                    <li>Bullet</li>
+                                    <li>Bullet</li>
+                                </ul>
+                            <li class="mb-2">Bullet</li>
+                </ul>
+                
+                    <div class="card bg-faded rounded-0 mt-n2 mb-3 col-12"></div>
+                            
+                <div class="text-center mt-n2 mb-1" style="font-variant:small-caps; font-size:1.5rem" > 
+                    <a class="text-warning" style="text-decoration:none" href="#title">Back To Top</a>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+        <!-------END OF Rights------->
+        
+    </div>
+    </div>
+    </div>
+    </div>
+    
+        <!------------------------------------
+            / CODE CREDIT /
+            Please don't remove the artist's credit, that would be cringe. lol thanks
+            Feel free to move this somewhere else if the client want, but I'd like for it to exist somewhere clear JSEJFSK
+            Feel free to copy-paste if you'd like to credit additional sources.
+        ----------------------------------->
+        <div class="justify-content-between mt-3 mx-n3" style="opacity:0.8">
+            <div class="col my-auto"><hr></div>
+                <div class="card bg-faded rounded-0 p-1">
+                    <div class="card rounded-0 d-inline p-1">
+                        <div class="justify-content-center">
+                            <span class="fa-stack my-1 justify-content-center" style="font-size:12px">
+                                <a class="justify-content-center text-warning p-0 m-0" href="/Lymle">
+                                <i class="fas fa-smoke fa-fw text-warning mx-auto fa-stack-2x" style="opacity:0.25"></i>
+                                <i class="fad fa-code fa-fw text-warning mx-auto fa-stack-1x mt-1" style="font-size:12px; transform: rotate(25deg)"></i>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            <div class="col my-auto"><hr></div>
+        </div>
