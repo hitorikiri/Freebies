@@ -12,6 +12,8 @@ To change the icons, search here: https://fontawesome.com/search
 ---
 
 ACCENT - #555555
+Any color can work. Any! Make good choices~
+VERY dark colors will make the text over the images look super ugly but it's still readable I guess lol
 
 IMAGE SHORTCUTS (CTRL+F+[copy image URL inside])
 Header - IMG1
@@ -22,15 +24,15 @@ Righthand - IMG5
 
 ---
 
-IF YOU WANT TO GET RID OF THE LUMINOSITY FILTER, CTRL+F+DELETE THE TEXT BELOW:
+IF YOU WANT TO GET RID OF THE LUMINOSITY FILTER ON IMAGES, CTRL+F+DELETE THE TEXT BELOW:
 
 mix-blend-mode:luminosity
 
-(WARNING: MODIFICATIONS TO THE IMAGE TEXT COLOR MAY BE NECESSARY FOR LEGIBILITY
+(WARNING: MODIFICATIONS TO THE IMAGE TEXT COLOR MAY BE NECESSARY FOR LEGIBILITY AND ACCESSIBILITY PURPOSES)
 
 ---------------------------->
 
-<div class="" style="margin-top:-55px">
+<div style="margin-top:-55px">
     
 <!--- / IMG HEADER / --->
 <div class="card rounded-0 d-none d-lg-block" style="background-color:#555555">
