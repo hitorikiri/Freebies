@@ -1,0 +1,251 @@
+<!--------------------------
+
+WITHIN BARS by CUMULOFARE
+
+
+Not many notes, just wanted to work on this code and finish it asap~
+
+FOR BEGINNERS
+I recommend using CircleJourney's Toyhou.se Live-Preview Editor (especially if you plan to change the layout): https://th.circlejourney.net/
+To change the icons, search here: https://fontawesome.com/search 
+
+---
+
+ACCENT - #555555
+
+IMAGE SHORTCUTS (CTRL+F+[copy image URL inside])
+Header - IMG1
+Lefthand Small - IMG2
+Lefthand Long - IMG3
+Middle - IMG4
+Righthand - IMG5
+
+---
+
+IF YOU WANT TO GET RID OF THE LUMINOSITY FILTER, CTRL+F+DELETE THE TEXT BELOW:
+
+mix-blend-mode:luminosity
+
+(WARNING: MODIFICATIONS TO THE IMAGE TEXT COLOR MAY BE NECESSARY FOR LEGIBILITY
+
+---------------------------->
+
+<div class="" style="margin-top:-55px">
+    
+<!--- / IMG HEADER / --->
+<div class="card rounded-0 d-none d-lg-block" style="background-color:#555555">
+<div class="card rounded-0 border-0" style="height:250px; 
+    background-image:url(IMG1); background-position:center; background-size:cover; mix-blend-mode:luminosity">
+    <div class="display-1 mx-auto my-auto">
+        <!------ CHANGE THE TEXT-LIGHT TO TEXT-DARK IF YOUR BANNER IMAGE IS LIGHT ------>
+        <div class="display-1 text-center text-light" style="mix-blend-mode:difference">TITLE</div>
+        <div class="display-4 text-center text-light font-italic" style="opacity:0.8; mix-blend-mode:difference; font-size:20pt">Subtitle that functions like a quote</div>
+    </div>
+</div>
+</div>
+
+<!--- / MAIN CONTENT / --->
+<div class="card bg-faded pt-2 p-0 rounded-0 border-0">
+    <div class="w-100 h-100">
+    
+    <!--- / BEGIN / ---> 
+    <div class="row no-gutters" style="">
+        
+        <div class="col-12 col-lg-9">
+            <!---- / SECTION 1 / ----->
+            <div class="rounded-0 row no-gutters pr-lg-1 pb-2">
+                <!--- / ROW ONE / --->
+                    <!--- / FIRST / --->
+                    <div class="col-12 col-lg-4 pr-lg-1">
+                        <div class="card rounded-0 h-100"  style="background-color:#555555">
+                        <div class="h-100" style="min-height:250px; background-position:top; background-size:cover; mix-blend-mode:luminosity;
+                            background-image:url(IMG2);">
+                        </div>
+                        </div>
+                    </div>
+                    <!--- / SECOND / --->
+                    <div class="col-12 col-lg-8 pl-lg-1">
+                        <div class="card rounded-0 h-100" style="border-color:#555555">
+                            <div class="row no-gutters p-2 my-auto h-100">
+                                
+                                <div class="col-12 col-lg-6 mb-2">
+                                    <div class="card rounded-0 mr-lg-1 h-100 row no-gutters" style="border-color:#555555">
+                                        <div class="bg-faded d-flex rounded-0 my-auto h-100 w-25" style="background-color:#555555">
+                                            <i class="fal fa-signature fa-beat my-auto mx-auto text-dark" style="font-size:20pt; mix-blend-mode:difference; "></i>
+                                        </div>
+                                        <ul class="m-0 p-0 my-auto pl-3 w-100 text-muted fa-ul" style="">
+                                            <li><i class="fal fa-angle-right"></i> FIRST</li>
+                                            <li><i class="fal fa-angle-right"></i> MIDDLE</li>
+                                            <li><i class="fal fa-angle-right"></i> LAST</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-12 col-lg-6 mb-2">
+                                    <div class="card rounded-0 ml-lg-1 h-100 row no-gutters" style="border-color:#555555">
+                                        <div class="bg-faded d-flex rounded-0 my-auto h-100 w-25" style="background-color:#555555">
+                                            <i class="fal fa-person-half-dress fa-beat fa-animation-timing-50sec my-auto mx-auto text-dark" style="font-size:20pt; mix-blend-mode:difference"></i>
+                                        </div>
+                                        <ul class="m-0 p-0 my-auto pl-3 w-100 text-muted" style="list-style-type:none">
+                                            <li><i class="fal fa-angle-right"></i> GENDER</li>
+                                            <li><i class="fal fa-angle-right"></i> PRO/NOU/NS</li>
+                                            <li><i class="fal fa-angle-right"></i> FEM/MASC/ANDRO</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-12 col-lg-6 mb-2">
+                                    <div class="card rounded-0 mr-lg-1 h-100 row no-gutters" style="border-color:#555555">
+                                        <div class="bg-faded d-flex rounded-0 my-auto h-100 w-25" style="background-color:#555555">
+                                            <i class="fal fa-earth fa-beat fa-animation-timing-50sec my-auto mx-auto text-dark" style="font-size:20pt; mix-blend-mode:difference"></i>
+                                        </div>
+                                        <ul class="m-0 p-0 my-auto pl-3 w-100 text-muted" style="list-style-type:none">
+                                            <li><i class="fal fa-angle-right"></i> RACE</li>
+                                            <li><i class="fal fa-angle-right"></i> ETHNICITY</li>
+                                            <li><i class="fal fa-angle-right"></i> HOMELAND</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-12 col-lg-6 mb-2">
+                                    <div class="card rounded-0 ml-lg-1 h-100 row no-gutters" style="border-color:#555555">
+                                        <div class="bg-faded d-flex rounded-0 my-auto h-100 w-25" style="background-color:#555555">
+                                            <i class="fal fa-shield-heart fa-beat fa-animation-timing-50sec my-auto mx-auto text-dark" style="font-size:20pt; mix-blend-mode:difference"></i>
+                                        </div>
+                                        <ul class="m-0 p-0 my-auto pl-3 w-100 text-muted" style="list-style-type:none">
+                                            <li><i class="fal fa-angle-right"></i> ORIENTATION</li>
+                                            <li><i class="fal fa-angle-right"></i> STATUS</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-12 col-lg-6 mb-lg-0 mb-2">
+                                    <div class="card rounded-0 mr-lg-1 h-100 row no-gutters" style="border-color:#555555">
+                                        <div class="bg-faded d-flex rounded-0 my-auto h-100 w-25" style="background-color:#555555">
+                                            <i class="fal fa-book-medical fa-beat fa-animation-timing-50sec my-auto mx-auto text-dark" style="font-size:20pt; mix-blend-mode:difference"></i>
+                                        </div>
+                                        <ul class="m-0 p-0 my-auto pl-3 w-100 text-muted" style="list-style-type:none">
+                                            <li><i class="fal fa-angle-right"></i> HEIGHT</li>
+                                            <li><i class="fal fa-angle-right"></i> WEIGHT</li>
+                                            <li><i class="fal fa-angle-right"></i> BODY TYPE</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-12 col-lg-6">
+                                    <div class="card rounded-0 ml-lg-1 h-100 row no-gutters" style="border-color:#555555">
+                                        <div class="bg-faded d-flex rounded-0 my-auto h-100 w-25" style="background-color:#555555">
+                                            <i class="fal fa-music-magnifying-glass fa-beat fa-animation-timing-50sec my-auto mx-auto text-dark" style="font-size:20pt; mix-blend-mode:difference"></i>
+                                        </div>
+                                        <ul class="m-0 p-0 my-auto pl-3 w-100 text-muted" style="list-style-type:none">
+                                            <li><i class="fal fa-angle-right"></i> MAIN SONG</li>
+                                            <li><i class="fal fa-angle-right"></i> MAIN THEME</li>
+                                            <li><i class="fal fa-angle-right"></i> PLAYLIST</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                <!--- / ROW ONE - END / --->
+                    
+                    
+            <!---- / SECTION 1 / ----->
+            <div class="rounded-0 row no-gutters pr-lg-1">
+                <!--- / ROW ONE / --->
+                    <!--- / FIRST / --->
+                    <div class="col-12 col-lg-4 pr-lg-1 mb-2 mb-lg-0">
+                        <div class="card rounded-0 h-100" style="background-color:#555555">
+                        <div class="card p-2 rounded-0 h-100 border-" style="min-height:300px; background-position:center; background-size:cover; mix-blend-mode:luminosity;
+                            background-image:url(IMG3);">
+                            <div class="display-1 mx-auto my-auto">
+                                <!------ CHANGE THE TEXT-LIGHT TO TEXT-DARK IF YOUR BANNER IMAGE IS LIGHT ------>
+                                <div class="display-4 text-center text-light font-italic" style="opacity:0.8; mix-blend-mode:difference; font-size:20pt">Subtitle that functions like a quote</div>
+                            </div>
+                        </div></div>
+                    </div>
+                    <!--- / SECOND / --->
+                    <div class="col-12 col-lg-8 pl-lg-1">
+                        <div class="card rounded-0 mb-2" style="height:450px; overflow:auto; border-color:#555555">
+                            <div>
+                                
+                                <div class="card mt-3 py-2 px-4 rounded-0 display-4" style="background-color:#555555; font-size:20pt; letter-spacing:2px">
+                                    <span class="text-dark" style="mix-blend-mode:difference">ABOUT</span>
+                                </div>
+                                
+                                <div class="px-3 pt-3">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros. Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque.Lorem ipsum dolor sit amet, consec</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros. Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque.Lorem ipsum dolor sit amet, consec Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros.</p>
+                                </div>
+                                <hr style="border-color:#555555">
+                                <div class="px-3">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros. Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque.Lorem ipsum dolor sit amet, consec Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sollicitudin elit sed tellus blandit viverra sed eget odio. Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros.</p>
+                                </div>
+                                
+                                
+                                
+                                <div class="card mt-4 py-2 px-4 rounded-0 display-4" style="background-color:#555555; font-size:20pt; letter-spacing:2px">
+                                    <span class="text-dark" style="mix-blend-mode:difference">TRIVIA</span>
+                                </div>
+                                
+                                        <ul class="m-0 p-0 my-3 pl-3 w-100" style="list-style-type:none">
+                                            <li><i class="fal fa-angle-right"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+                                            <li><i class="fal fa-angle-right"></i> Duis sollicitudin elit sed tellus blandit viverra sed eget odio. </li>
+                                            <li><i class="fal fa-angle-right"></i> Donec accumsan tempor lacus, et venenatis elit feugiat non. Duis porta eros et velit blandit dapibus. Curabitur ac finibus eros. Duis placerat velit vitae massa sodales, eget mattis nibh pellentesque.</li>
+                                        </ul>
+                                
+                                
+                            </div>
+                        </div>
+                        <div class="card rounded-0">
+                            <div class="card rounded-0 h-100"  style="background-color:#555555">
+                                <div class="h-100 py-5" style="background-position:center; background-size:cover; mix-blend-mode:luminosity;
+                                    background-image:url(IMG4);">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!--- / ROW ONE - END / --->
+                    </div>
+            <!---- / SECTION 1 - END / ----->
+            </div>
+        <!---- / STRETCHED RIGHT HEADER IMAGE / ---->
+        <div class="col-3 d-none d-lg-inline p-0 m-0">
+            <div class="card rounded-0 h-100 ml-1" style="background-color:#555555">
+                <div class="h-100"  style="min-height:300px; background-position:center; background-size:cover;  mix-blend-mode:luminosity;
+                    background-image:url(IMG5);">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    
+    </div>
+</div>
+<!--- / MAIN CONTENT - END / --->
+</div>
+
+
+        <!------------------------------------
+            / CODE CREDIT /
+            Please don't remove my credit.
+            Feel free to move this somewhere else if you want, but I'd like for it to exist somewhere clear 
+            Feel free to copy-paste if you'd like to credit additional sources.
+        ----------------------------------->
+        <div class="justify-content-between mt-3" style="opacity:0.8">
+            <div class="col my-auto"><div class="col-12 card"></div></div>
+                <div class="card bg-faded rounded-0 p-1">
+                    <div class="card rounded-0 d-inline p-1">
+                        <a class="mx-1 text-secondary" href="/Lymle"><i class="fal fa-code tooltipster" title="Code by LYMLE" /></a>
+                    </div>
+                </div>
+            <div class="col my-auto"><div class="col-12 card"></div></div>
+        </div>
+    
+</div>
+</div>
+          
+      </div>
+  </div>
